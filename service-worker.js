@@ -2,7 +2,7 @@
 
 // Install stage sets up the index page (home page) in the cache and opens a new cache
 self.addEventListener('install', event => {
-  const indexPage = new Request('/index.html')
+  const indexPage = new Request('index.html')
 
   event.waitUntil(
     fetch(indexPage).then(response => {

@@ -19,6 +19,6 @@
         "src": "img/touch/icon-512x512.png",
         "sizes": "512x512"
       }],
-  "start_url": "/index.html",
+  "start_url": "https://tiagoporto.github.io/gerador-validador-cpf/",
   "display": "standalone"
 }
