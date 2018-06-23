@@ -1,6 +1,8 @@
 {
   "name": "Gerador e validador de CPF",
-  "short_name": "Ger.Val. CPF",
+  "short_name": "Ger.Val.CPF",
+  "theme_color": "#1B6496",
+  "background_color": "#1B6496",
   "icons": [{
         "src": "img/touch/icon-128x128.png",
         "sizes": "128x128"
