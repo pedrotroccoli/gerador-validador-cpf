@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{205:function(e,o){navigator.serviceWorker.controller?console.info("Active service worker found, no need to register"):navigator.serviceWorker.register("service-worker.js",{scope:"./"}).then((function(e){console.info("Service worker has been registered for scope: "+e.scope)}))}}]);
