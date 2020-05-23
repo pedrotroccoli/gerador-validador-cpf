@@ -57,14 +57,14 @@
 /******/ 	// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 	// Promise = chunk loading, 0 = chunk loaded
 /******/ 	var installedChunks = {
-/******/ 		3: 0
+/******/ 		1: 0
 /******/ 	};
 /******/
 /******/ 	var deferredModules = [];
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "" + ({"0":"react~react-ga","6":"serviceWorker"}[chunkId]||chunkId) + "." + {"0":"b9c56fd4d87c0e7f094a","6":"80891249b9d77d1e9059"}[chunkId] + ".bundle.js"
+/******/ 		return __webpack_require__.p + "" + ({"0":"react~react-ga","4":"serviceWorker"}[chunkId]||chunkId) + "." + {"0":"01772ff7a0f34dd81a38","4":"c74734a317b622d860c2"}[chunkId] + ".bundle.js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -217,35 +217,47 @@
 /******/
 /******/
 /******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push([198,1,2,4,8,5]);
+/******/ 	deferredModules.push([137,2,5,3]);
 /******/ 	// run deferred modules when ready
 /******/ 	return checkDeferredModules();
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 129:
+/***/ 135:
 /***/ (function(module) {
 
 module.exports = JSON.parse("{\"app\":{\"title\":\"Gerador e validador de CPF Open-Source | Tiago Porto\",\"description\":\"Gerador e validador de CPF, open-source JS lib to generate and validate CPF.\",\"keywords\":\"cpf,gerar,gerador,generator,generates,validador,valida,validates,online\"},\"header\":{\"libInfo\":\"JS open-source lib to generate and validate CPF.\",\"projectPageGithub\":\"Github project page\"},\"validate\":{\"title\":\"Validate\",\"insertCPF\":\"Insert CPF\"},\"generate\":{\"title\":\"Generate\",\"cpfGenerated\":\"Generated CPF\"},\"info\":{\"algorithm\":\"Implements the follow <0>algorithm</0>.\",\"disclaimer\":\"Lib available to assist developers in software testing, doesn't have link with \\\"Receita Federal do Brasil\\\".\",\"cpfByState\":\"The last digit before verifiers (last 2 digits), corresponds with the brasilian state were CPF was issued.\",\"codeByState\":\"Code by brasilian states:\",\"example\":\"Example: CPF <0>XXX.XXX.XX8-XX</0>, number 8 corresponds to São Paulo state.\",\"stateCode1\":\"1. Distrito Federal, Goiás, Mato Grosso do Sul and Tocantins;\",\"stateCode2\":\"2. Pará, Amazonas, Acre, Amapá, Rondônia and Roraima;\",\"stateCode3\":\"3. Ceará, Maranhão and Piauí;\",\"stateCode4\":\"4. Pernambuco, Rio Grande do Norte, Paraíba and Alagoas;\",\"stateCode5\":\"5. Bahia and Sergipe;\",\"stateCode6\":\"6. Minas Gerais;\",\"stateCode7\":\"7. Rio de Janeiro and Espírito Santo;\",\"stateCode8\":\"8. São Paulo;\",\"stateCode9\":\"9. Paraná and Santa Catarina;\",\"stateCode10\":\"0. Rio Grande do Sul.\",\"disclaimerValidCPF\":\"Valid CPD doesn't mean is registered or is active. For those informations, check <0>Secretaria da Receita Federal do Brasil</0>.\"},\"donate\":{\"leaveStar\":\"Leave a ★\",\"contributePaypal\":\"Contribute (Paypal)\",\"contributeBitcoin\":\"Contribute (bitcoin)\"},\"messages\":{\"copied\":\"Copied!\",\"cpfCopied\":\"CPF Copied!\",\"validCPF\":\"CPF Valid\",\"invalidCPF\":\"CPF Invalid\",\"walletCopied\":\"Wallet copied!\",\"incomplete\":\"incomplete\"}}");
 
 /***/ }),
 
-/***/ 130:
+/***/ 136:
 /***/ (function(module) {
 
 module.exports = JSON.parse("{\"app\":{\"title\":\"Gerador e validador de CPF Open-Source | Tiago Porto\",\"description\":\"Gerador e validador de CPF, biblioteca JS open-source para gerar e validar CPF.\",\"keywords\":\"cpf,gerar,gerador,generator,generates,validador,valida,validates,online\"},\"header\":{\"libInfo\":\"Lib JS open-source para gerar e validar CPF.\",\"projectPageGithub\":\"Página do projeto no github\"},\"validate\":{\"title\":\"Validar\",\"insertCPF\":\"Insira o CPF\"},\"generate\":{\"title\":\"Gerar\",\"cpfGenerated\":\"CPF gerado\"},\"info\":{\"algorithm\":\"Utiliza o seguinte <0>algoritmo</0>.\",\"disclaimer\":\"Lib disponível para auxiliar desenvolvedores em testes de software, não possui qualquer vínculo com a Receita Federal do Brasil.\",\"cpfByState\":\"O CPF guarda o estado brasileiro de onde foi emitido, esse número corresponde ao último algarismo anterior aos dois dígitos verificadores.\",\"codeByState\":\"Códigos correspondentes aos estados brasileiros:\",\"example\":\"Exemplo: CPF <0>XXX.XXX.XX8-XX</0>, o número 8 corresponde ao estado de São Paulo.\",\"stateCode1\":\"1. Distrito Federal, Goiás, Mato Grosso do Sul e Tocantins;\",\"stateCode2\":\"2. Pará, Amazonas, Acre, Amapá, Rondônia e Roraima;\",\"stateCode3\":\"3. Ceará, Maranhão e Piauí;\",\"stateCode4\":\"4. Pernambuco, Rio Grande do Norte, Paraíba e Alagoas;\",\"stateCode5\":\"5. Bahia e Sergipe;\",\"stateCode6\":\"6. Minas Gerais;\",\"stateCode7\":\"7. Rio de Janeiro e Espírito Santo;\",\"stateCode8\":\"8. São Paulo;\",\"stateCode9\":\"9. Paraná e Santa Catarina;\",\"stateCode10\":\"0. Rio Grande do Sul.\",\"disclaimerValidCPF\":\"Um CPF válido não significa que ele exista no Cadastro Nacional de Pessoas Físicas, nem que esteja ativo ou com situação cadastral regular. Para conferir tais dados, consulte o site oficial da <0>Secretaria da Receita Federal do Brasil</0>.\"},\"donate\":{\"leaveStar\":\"Deixe um ★\",\"contributePaypal\":\"Contribua pelo Paypal\",\"contributeBitcoin\":\"Contribua por bitcoin\"},\"messages\":{\"copied\":\"Copiado!\",\"cpfCopied\":\"CPF copiado!\",\"validCPF\":\"CPF Válido\",\"invalidCPF\":\"CPF Inválido\",\"walletCopied\":\"Wallet copiado!\",\"incomplete\":\"incompleto\"}}");
 
 /***/ }),
 
-/***/ 155:
+/***/ 137:
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(138);
+__webpack_require__(146);
+__webpack_require__(147);
+__webpack_require__(152);
+module.exports = __webpack_require__(208);
+
+
+/***/ }),
+
+/***/ 168:
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
 
 /***/ }),
 
-/***/ 198:
+/***/ 208:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -253,30 +265,30 @@ module.exports = JSON.parse("{\"app\":{\"title\":\"Gerador e validador de CPF Op
 __webpack_require__.r(__webpack_exports__);
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.to-string.js
-var es_object_to_string = __webpack_require__(37);
+var es_object_to_string = __webpack_require__(44);
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.promise.js
-var es_promise = __webpack_require__(59);
+var es_promise = __webpack_require__(68);
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.regexp.exec.js
-var es_regexp_exec = __webpack_require__(65);
+var es_regexp_exec = __webpack_require__(69);
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.string.search.js
-var es_string_search = __webpack_require__(104);
+var es_string_search = __webpack_require__(117);
 
 // EXTERNAL MODULE: ./node_modules/react/index.js
 var react = __webpack_require__(1);
 var react_default = /*#__PURE__*/__webpack_require__.n(react);
 
 // EXTERNAL MODULE: ./node_modules/react-dom/index.js
-var react_dom = __webpack_require__(43);
+var react_dom = __webpack_require__(45);
 var react_dom_default = /*#__PURE__*/__webpack_require__.n(react_dom);
 
 // EXTERNAL MODULE: ./node_modules/normalize.css/normalize.css
-var normalize = __webpack_require__(154);
+var normalize = __webpack_require__(167);
 
 // EXTERNAL MODULE: ./src/site/styles/demo.styl
-var demo = __webpack_require__(155);
+var demo = __webpack_require__(168);
 
 // CONCATENATED MODULE: ./src/site/styles/index.js
 
@@ -288,24 +300,24 @@ var demo = __webpack_require__(155);
 var react_toastify = __webpack_require__(33);
 
 // EXTERNAL MODULE: ./node_modules/react-toastify/dist/ReactToastify.css
-var ReactToastify = __webpack_require__(156);
+var ReactToastify = __webpack_require__(169);
 
 // CONCATENATED MODULE: ./src/site/components/Header/Header.module.styl
 // extracted by mini-css-extract-plugin
 /* harmony default export */ var Header_module = ({"panel":"panel--1HNHb_e","panelTitle":"panel__title--2wAkOiT","logo":"logo--27T40Mb","copy":"copy--3P7Bv5h"});
 // EXTERNAL MODULE: ./node_modules/react-github-corner/lib/GithubCorner.js
-var GithubCorner = __webpack_require__(123);
+var GithubCorner = __webpack_require__(129);
 var GithubCorner_default = /*#__PURE__*/__webpack_require__.n(GithubCorner);
 
 // EXTERNAL MODULE: ./node_modules/react-copy-to-clipboard/lib/index.js
-var lib = __webpack_require__(44);
+var lib = __webpack_require__(46);
 var lib_default = /*#__PURE__*/__webpack_require__.n(lib);
 
 // EXTERNAL MODULE: ./src/site/locales/resources.json
 var resources = __webpack_require__(6);
 
 // EXTERNAL MODULE: ./node_modules/react-i18next/dist/es/useTranslation.js
-var useTranslation = __webpack_require__(202);
+var useTranslation = __webpack_require__(212);
 
 // CONCATENATED MODULE: ./src/site/components/Donate/Donation.module.styl
 // extracted by mini-css-extract-plugin
@@ -339,7 +351,7 @@ var Donate_Donate = function Donate() {
         type = _ref.type;
     return function () {
       if (true) {
-        __webpack_require__.e(/* import() */ 0).then(__webpack_require__.bind(null, 205)).then(function (ReactGA) {
+        __webpack_require__.e(/* import() */ 0).then(__webpack_require__.bind(null, 215)).then(function (ReactGA) {
           ReactGA.ga('send', 'event', category, 'click', type);
         });
       }
@@ -419,22 +431,22 @@ var Donate_Donate = function Donate() {
 // CONCATENATED MODULE: ./src/site/components/Donate/index.ts
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.iterator.js
-var es_array_iterator = __webpack_require__(66);
+var es_array_iterator = __webpack_require__(70);
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.string.iterator.js
-var es_string_iterator = __webpack_require__(82);
+var es_string_iterator = __webpack_require__(87);
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/web.dom-collections.iterator.js
-var web_dom_collections_iterator = __webpack_require__(115);
+var web_dom_collections_iterator = __webpack_require__(121);
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/web.timers.js
-var web_timers = __webpack_require__(172);
+var web_timers = __webpack_require__(183);
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/web.url.js
-var web_url = __webpack_require__(173);
+var web_url = __webpack_require__(184);
 
 // EXTERNAL MODULE: ./node_modules/i18next/dist/esm/i18next.js + 20 modules
-var i18next = __webpack_require__(46);
+var i18next = __webpack_require__(48);
 
 // CONCATENATED MODULE: ./src/site/components/ChangeLocale/ChangeLocale.module.styl
 // extracted by mini-css-extract-plugin
@@ -496,7 +508,7 @@ var ChangeLocale_ChangeLocale = function ChangeLocale() {
 // CONCATENATED MODULE: ./src/site/components/ChangeLocale/index.ts
 
 // EXTERNAL MODULE: ./node_modules/highlight.js/styles/github.css
-var github = __webpack_require__(177);
+var github = __webpack_require__(188);
 
 // CONCATENATED MODULE: ./src/site/components/Header/Header.tsx
 
@@ -539,7 +551,7 @@ var Header_Header = function Header() {
 // CONCATENATED MODULE: ./src/site/components/Header/index.ts
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.date.to-string.js
-var es_date_to_string = __webpack_require__(178);
+var es_date_to_string = __webpack_require__(189);
 
 // CONCATENATED MODULE: ./src/site/components/Footer/Footer.module.styl
 // extracted by mini-css-extract-plugin
@@ -560,10 +572,10 @@ var Footer_Footer = function Footer() {
 // extracted by mini-css-extract-plugin
 /* harmony default export */ var GenerateSection_module = ({"generateButton":"generate-button--3oSqR_N","generateSection":"generate-section--NMs0op5","input":"input--3CwSxb4","center":"center--1YtIKfX"});
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.string.replace.js
-var es_string_replace = __webpack_require__(179);
+var es_string_replace = __webpack_require__(190);
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.number.constructor.js
-var es_number_constructor = __webpack_require__(181);
+var es_number_constructor = __webpack_require__(192);
 
 // CONCATENATED MODULE: ./src/lib/calcChecker.ts
 
@@ -590,10 +602,10 @@ var calcSecondChecker = function calcSecondChecker(cpfWithChecker1) {
   return checker2;
 };
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.join.js
-var es_array_join = __webpack_require__(185);
+var es_array_join = __webpack_require__(195);
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.slice.js
-var es_array_slice = __webpack_require__(187);
+var es_array_slice = __webpack_require__(197);
 
 // CONCATENATED MODULE: ./src/lib/utils.ts
 
@@ -704,7 +716,7 @@ var CPF_validate = function validate(value) {
   return checker === "" + checker1 + checker2;
 };
 // EXTERNAL MODULE: ./node_modules/react-imask/esm/index.js + 2 modules
-var esm = __webpack_require__(69);
+var esm = __webpack_require__(72);
 
 // CONCATENATED MODULE: ./src/site/components/GenerateSection/GenerateSection.tsx
 
@@ -735,7 +747,7 @@ var GenerateSection_GenerateSection = function GenerateSection() {
       setCpf(CPF_generate());
 
       if (true) {
-        __webpack_require__.e(/* import() */ 0).then(__webpack_require__.bind(null, 205)).then(function (ReactGA) {
+        __webpack_require__.e(/* import() */ 0).then(__webpack_require__.bind(null, 215)).then(function (ReactGA) {
           ReactGA.ga('send', 'event', 'Generate', type, 'Generate CPF');
         });
       }
@@ -768,7 +780,7 @@ var GenerateSection_GenerateSection = function GenerateSection() {
 // CONCATENATED MODULE: ./src/site/components/GenerateSection/index.ts
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.assign.js
-var es_object_assign = __webpack_require__(188);
+var es_object_assign = __webpack_require__(198);
 
 // CONCATENATED MODULE: ./src/site/components/ValidateSection/ValidateSection.module.styl
 // extracted by mini-css-extract-plugin
@@ -811,7 +823,7 @@ var ValidateSection_ValidateSection = function ValidateSection() {
   Object(react["useEffect"])(function () {
     if (tempCpf.length === 14) {
       if (true) {
-        __webpack_require__.e(/* import() */ 0).then(__webpack_require__.bind(null, 205)).then(function (ReactGA) {
+        __webpack_require__.e(/* import() */ 0).then(__webpack_require__.bind(null, 215)).then(function (ReactGA) {
           ReactGA.ga('send', 'event', 'Validate', 'type', 'Validate CPF');
         });
       }
@@ -850,16 +862,16 @@ var ValidateSection_ValidateSection = function ValidateSection() {
 // CONCATENATED MODULE: ./src/site/components/ValidateSection/index.ts
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.from.js
-var es_array_from = __webpack_require__(189);
+var es_array_from = __webpack_require__(199);
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.map.js
-var es_array_map = __webpack_require__(190);
+var es_array_map = __webpack_require__(200);
 
 // CONCATENATED MODULE: ./src/site/components/InfoSection/InfoSection.module.styl
 // extracted by mini-css-extract-plugin
 /* harmony default export */ var InfoSection_module = ({"center":"center--9YruStl","infoSection":"info-section--2IT9UOu","list":"list--3BA1q8Y"});
 // EXTERNAL MODULE: ./node_modules/react-i18next/dist/es/Trans.js
-var Trans = __webpack_require__(203);
+var Trans = __webpack_require__(213);
 
 // CONCATENATED MODULE: ./src/site/components/InfoSection/InfoSection.tsx
 
@@ -942,13 +954,13 @@ var App_App = function App() {
   }));
 };
 // EXTERNAL MODULE: ./node_modules/react-i18next/dist/es/context.js
-var context = __webpack_require__(19);
+var context = __webpack_require__(21);
 
 // EXTERNAL MODULE: ./src/site/locales/en/app.json
-var app = __webpack_require__(129);
+var app = __webpack_require__(135);
 
 // EXTERNAL MODULE: ./src/site/locales/br/app.json
-var br_app = __webpack_require__(130);
+var br_app = __webpack_require__(136);
 
 // CONCATENATED MODULE: ./src/site/locales/index.ts
 
@@ -970,12 +982,12 @@ var i18nResources = {
 
 
 if (true) {
-  __webpack_require__.e(/* import() | react-ga */ 0).then(__webpack_require__.bind(null, 205)).then(function (ReactGA) {
+  __webpack_require__.e(/* import() | react-ga */ 0).then(__webpack_require__.bind(null, 215)).then(function (ReactGA) {
     ReactGA.initialize('UA-32351360-4');
     ReactGA.pageview(window.location.pathname + window.location.search);
   }); // @ts-expect-error
 
-  __webpack_require__.e(/* import() | serviceWorker */ 6).then(__webpack_require__.t.bind(null, 204, 7));
+  __webpack_require__.e(/* import() | serviceWorker */ 4).then(__webpack_require__.t.bind(null, 214, 7));
 }
 
 i18next["a" /* default */].use(context["f" /* initReactI18next */]).init({
@@ -1004,4 +1016,4 @@ module.exports = JSON.parse("{\"app\":{\"title\":\"app.title\",\"description\":\
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.7e2fa04f3adb952ff146.js.map
+//# sourceMappingURL=index.b6547f7c283e50487764.js.map
