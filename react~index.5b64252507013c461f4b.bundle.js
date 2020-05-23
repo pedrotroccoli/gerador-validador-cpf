@@ -7,13 +7,13 @@
 
 
 if (true) {
-  module.exports = __webpack_require__(163);
+  module.exports = __webpack_require__(162);
 } else {}
 
 
 /***/ }),
 
-/***/ 129:
+/***/ 127:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31,7 +31,7 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _getGithubCornerStyles = __webpack_require__(170);
+var _getGithubCornerStyles = __webpack_require__(169);
 
 var _getGithubCornerStyles2 = _interopRequireDefault(_getGithubCornerStyles);
 
@@ -161,7 +161,7 @@ exports.default = GithubCorner;
 
 /***/ }),
 
-/***/ 163:
+/***/ 162:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -174,7 +174,7 @@ exports.default = GithubCorner;
  * LICENSE file in the root directory of this source tree.
  */
 
-var l=__webpack_require__(120),n="function"===typeof Symbol&&Symbol.for,p=n?Symbol.for("react.element"):60103,q=n?Symbol.for("react.portal"):60106,r=n?Symbol.for("react.fragment"):60107,t=n?Symbol.for("react.strict_mode"):60108,u=n?Symbol.for("react.profiler"):60114,v=n?Symbol.for("react.provider"):60109,w=n?Symbol.for("react.context"):60110,x=n?Symbol.for("react.forward_ref"):60112,y=n?Symbol.for("react.suspense"):60113,z=n?Symbol.for("react.memo"):60115,A=n?Symbol.for("react.lazy"):
+var l=__webpack_require__(118),n="function"===typeof Symbol&&Symbol.for,p=n?Symbol.for("react.element"):60103,q=n?Symbol.for("react.portal"):60106,r=n?Symbol.for("react.fragment"):60107,t=n?Symbol.for("react.strict_mode"):60108,u=n?Symbol.for("react.profiler"):60114,v=n?Symbol.for("react.provider"):60109,w=n?Symbol.for("react.context"):60110,x=n?Symbol.for("react.forward_ref"):60112,y=n?Symbol.for("react.suspense"):60113,z=n?Symbol.for("react.memo"):60115,A=n?Symbol.for("react.lazy"):
 60116,B="function"===typeof Symbol&&Symbol.iterator;function C(a){for(var b="https://reactjs.org/docs/error-decoder.html?invariant="+a,c=1;c<arguments.length;c++)b+="&args[]="+encodeURIComponent(arguments[c]);return"Minified React error #"+a+"; visit "+b+" for the full message or use the non-minified dev environment for full errors and additional helpful warnings."}
 var D={isMounted:function(){return!1},enqueueForceUpdate:function(){},enqueueReplaceState:function(){},enqueueSetState:function(){}},E={};function F(a,b,c){this.props=a;this.context=b;this.refs=E;this.updater=c||D}F.prototype.isReactComponent={};F.prototype.setState=function(a,b){if("object"!==typeof a&&"function"!==typeof a&&null!=a)throw Error(C(85));this.updater.enqueueSetState(this,a,b,"setState")};F.prototype.forceUpdate=function(a){this.updater.enqueueForceUpdate(this,a,"forceUpdate")};
 function G(){}G.prototype=F.prototype;function H(a,b,c){this.props=a;this.context=b;this.refs=E;this.updater=c||D}var I=H.prototype=new G;I.constructor=H;l(I,F.prototype);I.isPureReactComponent=!0;var J={current:null},K=Object.prototype.hasOwnProperty,L={key:!0,ref:!0,__self:!0,__source:!0};
@@ -194,7 +194,7 @@ exports.useLayoutEffect=function(a,b){return Z().useLayoutEffect(a,b)};exports.u
 
 /***/ }),
 
-/***/ 164:
+/***/ 163:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -210,7 +210,7 @@ exports.useLayoutEffect=function(a,b){return Z().useLayoutEffect(a,b)};exports.u
 /*
  Modernizr 3.0.0pre (Custom Build) | MIT
 */
-var aa=__webpack_require__(1),n=__webpack_require__(120),r=__webpack_require__(165);function u(a){for(var b="https://reactjs.org/docs/error-decoder.html?invariant="+a,c=1;c<arguments.length;c++)b+="&args[]="+encodeURIComponent(arguments[c]);return"Minified React error #"+a+"; visit "+b+" for the full message or use the non-minified dev environment for full errors and additional helpful warnings."}if(!aa)throw Error(u(227));
+var aa=__webpack_require__(1),n=__webpack_require__(118),r=__webpack_require__(164);function u(a){for(var b="https://reactjs.org/docs/error-decoder.html?invariant="+a,c=1;c<arguments.length;c++)b+="&args[]="+encodeURIComponent(arguments[c]);return"Minified React error #"+a+"; visit "+b+" for the full message or use the non-minified dev environment for full errors and additional helpful warnings."}if(!aa)throw Error(u(227));
 function ba(a,b,c,d,e,f,g,h,k){var l=Array.prototype.slice.call(arguments,3);try{b.apply(c,l)}catch(m){this.onError(m)}}var da=!1,ea=null,fa=!1,ha=null,ia={onError:function(a){da=!0;ea=a}};function ja(a,b,c,d,e,f,g,h,k){da=!1;ea=null;ba.apply(ia,arguments)}function ka(a,b,c,d,e,f,g,h,k){ja.apply(this,arguments);if(da){if(da){var l=ea;da=!1;ea=null}else throw Error(u(198));fa||(fa=!0,ha=l)}}var la=null,ma=null,na=null;
 function oa(a,b,c){var d=a.type||"unknown-event";a.currentTarget=na(c);ka(d,b,void 0,a);a.currentTarget=null}var pa=null,qa={};
 function ra(){if(pa)for(var a in qa){var b=qa[a],c=pa.indexOf(a);if(!(-1<c))throw Error(u(96,a));if(!sa[c]){if(!b.extractEvents)throw Error(u(97,a));sa[c]=b;c=b.eventTypes;for(var d in c){var e=void 0;var f=c[d],g=b,h=d;if(ta.hasOwnProperty(h))throw Error(u(99,h));ta[h]=f;var k=f.phasedRegistrationNames;if(k){for(e in k)k.hasOwnProperty(e)&&ua(k[e],g,h);e=!0}else f.registrationName?(ua(f.registrationName,g,h),e=!0):e=!1;if(!e)throw Error(u(98,d,a));}}}}
@@ -494,14 +494,14 @@ exports.unstable_renderSubtreeIntoContainer=function(a,b,c,d){if(!gk(c))throw Er
 
 /***/ }),
 
-/***/ 169:
+/***/ 168:
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
 
 /***/ }),
 
-/***/ 170:
+/***/ 169:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -518,7 +518,7 @@ exports.default = function () {
 
 /***/ }),
 
-/***/ 171:
+/***/ 170:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -531,7 +531,7 @@ exports.CopyToClipboard = void 0;
 
 var _react = _interopRequireDefault(__webpack_require__(1));
 
-var _copyToClipboard = _interopRequireDefault(__webpack_require__(172));
+var _copyToClipboard = _interopRequireDefault(__webpack_require__(171));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
@@ -635,166 +635,25 @@ _defineProperty(CopyToClipboard, "defaultProps", {
 
 /***/ }),
 
-/***/ 21:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return I18nContext; });
-/* unused harmony export usedI18nextProvider */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return getHasUsedI18nextProvider; });
-/* unused harmony export setDefaults */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return getDefaults; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return ReportNamespaces; });
-/* unused harmony export setI18n */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return getI18n; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return initReactI18next; });
-/* unused harmony export composeInitialProps */
-/* unused harmony export getInitialProps */
-/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(131);
-/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(132);
-/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(47);
-/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-
-
-
-
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-
-var defaultOptions = {
-  bindI18n: 'languageChanged',
-  bindI18nStore: '',
-  // nsMode: 'fallback' // loop through all namespaces given to hook, HOC, render prop for key lookup
-  transEmptyNodeValue: '',
-  transSupportBasicHtmlNodes: true,
-  transKeepBasicHtmlNodesFor: ['br', 'strong', 'i', 'p'],
-  // hashTransKey: key => key // calculate a key for Trans component based on defaultValue
-  useSuspense: true
-};
-var i18nInstance;
-var hasUsedI18nextProvider;
-var I18nContext = react__WEBPACK_IMPORTED_MODULE_3___default.a.createContext();
-function usedI18nextProvider(used) {
-  hasUsedI18nextProvider = used;
-}
-function getHasUsedI18nextProvider() {
-  return hasUsedI18nextProvider;
-}
-function setDefaults() {
-  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-  defaultOptions = _objectSpread({}, defaultOptions, {}, options);
-}
-function getDefaults() {
-  return defaultOptions;
-}
-var ReportNamespaces =
-/*#__PURE__*/
-function () {
-  function ReportNamespaces() {
-    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default()(this, ReportNamespaces);
-
-    this.usedNamespaces = {};
-  }
-
-  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default()(ReportNamespaces, [{
-    key: "addUsedNamespaces",
-    value: function addUsedNamespaces(namespaces) {
-      var _this = this;
-
-      namespaces.forEach(function (ns) {
-        if (!_this.usedNamespaces[ns]) _this.usedNamespaces[ns] = true;
-      });
-    }
-  }, {
-    key: "getUsedNamespaces",
-    value: function getUsedNamespaces() {
-      return Object.keys(this.usedNamespaces);
-    }
-  }]);
-
-  return ReportNamespaces;
-}();
-function setI18n(instance) {
-  i18nInstance = instance;
-}
-function getI18n() {
-  return i18nInstance;
-}
-var initReactI18next = {
-  type: '3rdParty',
-  init: function init(instance) {
-    setDefaults(instance.options.react);
-    setI18n(instance);
-  }
-};
-function composeInitialProps(ForComponent) {
-  return function (ctx) {
-    return new Promise(function (resolve) {
-      var i18nInitialProps = getInitialProps();
-
-      if (ForComponent.getInitialProps) {
-        ForComponent.getInitialProps(ctx).then(function (componentsInitialProps) {
-          resolve(_objectSpread({}, componentsInitialProps, {}, i18nInitialProps));
-        });
-      } else {
-        resolve(i18nInitialProps);
-      }
-    });
-  }; // Avoid async for now - so we do not need to pull in regenerator
-  // return async ctx => {
-  //   const componentsInitialProps = ForComponent.getInitialProps
-  //     ? await ForComponent.getInitialProps(ctx)
-  //     : {};
-  //   const i18nInitialProps = getInitialProps();
-  //   return {
-  //     ...componentsInitialProps,
-  //     ...i18nInitialProps,
-  //   };
-  // };
-}
-function getInitialProps() {
-  var i18n = getI18n();
-  var namespaces = i18n.reportNamespaces ? i18n.reportNamespaces.getUsedNamespaces() : [];
-  var ret = {};
-  var initialI18nStore = {};
-  i18n.languages.forEach(function (l) {
-    initialI18nStore[l] = {};
-    namespaces.forEach(function (ns) {
-      initialI18nStore[l][ns] = i18n.getResourceBundle(l, ns) || {};
-    });
-  });
-  ret.initialI18nStore = initialI18nStore;
-  ret.initialLanguage = i18n.language;
-  return ret;
-}
-
-/***/ }),
-
-/***/ 212:
+/***/ 211:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return useTranslation; });
-/* harmony import */ var _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(130);
+/* harmony import */ var _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(128);
 /* harmony import */ var _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(47);
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(44);
 /* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(21);
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(28);
+/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(25);
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(26);
 
 
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_1___default()(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_1___default()(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 
 
@@ -803,13 +662,12 @@ function useTranslation(ns) {
   var props = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
   // assert we have the needed i18nInstance
   var i18nFromProps = props.i18n;
-  var ReactI18nContext = Object(react__WEBPACK_IMPORTED_MODULE_2__["useContext"])(_context__WEBPACK_IMPORTED_MODULE_3__[/* I18nContext */ "a"]);
 
-  var _ref = Object(_context__WEBPACK_IMPORTED_MODULE_3__[/* getHasUsedI18nextProvider */ "d"])() ? ReactI18nContext || {} : {},
+  var _ref = Object(react__WEBPACK_IMPORTED_MODULE_2__["useContext"])(_context__WEBPACK_IMPORTED_MODULE_3__[/* I18nContext */ "a"]) || {},
       i18nFromContext = _ref.i18n,
       defaultNSFromContext = _ref.defaultNS;
 
-  var i18n = i18nFromProps || i18nFromContext || Object(_context__WEBPACK_IMPORTED_MODULE_3__[/* getI18n */ "e"])();
+  var i18n = i18nFromProps || i18nFromContext || Object(_context__WEBPACK_IMPORTED_MODULE_3__[/* getI18n */ "d"])();
   if (i18n && !i18n.reportNamespaces) i18n.reportNamespaces = new _context__WEBPACK_IMPORTED_MODULE_3__[/* ReportNamespaces */ "b"]();
 
   if (!i18n) {
@@ -902,31 +760,31 @@ function useTranslation(ns) {
 
 /***/ }),
 
-/***/ 213:
+/***/ 212:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export nodesToString */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Trans; });
-/* harmony import */ var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(133);
+/* harmony import */ var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(87);
 /* harmony import */ var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(47);
-/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(59);
-/* harmony import */ var _babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(56);
+/* harmony import */ var _babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(44);
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var html_parse_stringify2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(134);
+/* harmony import */ var html_parse_stringify2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(133);
 /* harmony import */ var html_parse_stringify2__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(html_parse_stringify2__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(21);
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(28);
+/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(25);
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(26);
 
 
 
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_1___default()(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 
 
@@ -953,44 +811,63 @@ function getAsArray(data) {
   return Array.isArray(data) ? data : [data];
 }
 
-function nodesToString(startingString, children, index, i18nOptions) {
+function mergeProps(source, target) {
+  var newTarget = _objectSpread({}, target); // overwrite source.props when target.props already set
+
+
+  newTarget.props = Object.assign(source.props, target.props);
+  return newTarget;
+}
+
+function nodesToString(children, i18nOptions) {
   if (!children) return '';
-  var stringNode = startingString;
+  var stringNode = ''; // do not use `React.Children.toArray`, will fail at object children
+
   var childrenArray = getAsArray(children);
-  var keepArray = i18nOptions.transKeepBasicHtmlNodesFor || [];
-  childrenArray.forEach(function (child, i) {
-    var elementKey = "".concat(i);
+  var keepArray = i18nOptions.transKeepBasicHtmlNodesFor || []; // e.g. lorem <br/> ipsum {{ messageCount, format }} dolor <strong>bold</strong> amet
 
+  childrenArray.forEach(function (child, childIndex) {
     if (typeof child === 'string') {
-      stringNode = "".concat(stringNode).concat(child);
-    } else if (hasChildren(child)) {
-      var elementTag = keepArray.indexOf(child.type) > -1 && Object.keys(child.props).length === 1 && typeof hasChildren(child) === 'string' ? child.type : elementKey;
+      // actual e.g. lorem
+      // expected e.g. lorem
+      stringNode += "".concat(child);
+    } else if (react__WEBPACK_IMPORTED_MODULE_3___default.a.isValidElement(child)) {
+      var childPropsCount = Object.keys(child.props).length;
+      var shouldKeepChild = keepArray.indexOf(child.type) > -1;
+      var childChildren = child.props.children;
 
-      if (child.props && child.props.i18nIsDynamicList) {
-        // we got a dynamic list like "<ul>{['a', 'b'].map(item => ( <li key={item}>{item}</li> ))}</ul>""
-        // the result should be "<0></0>" and not "<0><0>a</0><1>b</1></0>"
-        stringNode = "".concat(stringNode, "<").concat(elementTag, "></").concat(elementTag, ">");
+      if (!childChildren && shouldKeepChild && childPropsCount === 0) {
+        // actual e.g. lorem <br/> ipsum
+        // expected e.g. lorem <br/> ipsum
+        stringNode += "<".concat(child.type, "/>");
+      } else if (!childChildren && (!shouldKeepChild || childPropsCount !== 0)) {
+        // actual e.g. lorem <hr className="test" /> ipsum
+        // expected e.g. lorem <0></0> ipsum
+        stringNode += "<".concat(childIndex, "></").concat(childIndex, ">");
+      } else if (child.props.i18nIsDynamicList) {
+        // we got a dynamic list like
+        // e.g. <ul i18nIsDynamicList>{['a', 'b'].map(item => ( <li key={item}>{item}</li> ))}</ul>
+        // expected e.g. "<0></0>", not e.g. "<0><0>a</0><1>b</1></0>"
+        stringNode += "<".concat(childIndex, "></").concat(childIndex, ">");
+      } else if (shouldKeepChild && childPropsCount === 1 && typeof childChildren === 'string') {
+        // actual e.g. dolor <strong>bold</strong> amet
+        // expected e.g. dolor <strong>bold</strong> amet
+        stringNode += "<".concat(child.type, ">").concat(childChildren, "</").concat(child.type, ">");
       } else {
         // regular case mapping the inner children
-        stringNode = "".concat(stringNode, "<").concat(elementTag, ">").concat(nodesToString('', getChildren(child), i + 1, i18nOptions), "</").concat(elementTag, ">");
+        var content = nodesToString(childChildren, i18nOptions);
+        stringNode += "<".concat(childIndex, ">").concat(content, "</").concat(childIndex, ">");
       }
-    } else if (react__WEBPACK_IMPORTED_MODULE_3___default.a.isValidElement(child)) {
-      if (keepArray.indexOf(child.type) > -1 && Object.keys(child.props).length === 0) {
-        stringNode = "".concat(stringNode, "<").concat(child.type, "/>");
-      } else {
-        stringNode = "".concat(stringNode, "<").concat(elementKey, "></").concat(elementKey, ">");
-      }
-    } else if (_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_2___default()(child) === 'object') {
-      var clone = _objectSpread({}, child);
+    } else if (_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_1___default()(child) === 'object') {
+      // e.g. lorem {{ value, format }} ipsum
+      var format = child.format,
+          clone = _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0___default()(child, ["format"]);
 
-      var format = clone.format;
-      delete clone.format;
       var keys = Object.keys(clone);
 
-      if (format && keys.length === 1) {
-        stringNode = "".concat(stringNode, "{{").concat(keys[0], ", ").concat(format, "}}");
-      } else if (keys.length === 1) {
-        stringNode = "".concat(stringNode, "{{").concat(keys[0], "}}");
+      if (keys.length === 1) {
+        var value = format ? "".concat(keys[0], ", ").concat(format) : keys[0];
+        stringNode += "{{".concat(value, "}}");
       } else {
         // not a valid interpolation object (can only contain one value plus format)
         Object(_utils__WEBPACK_IMPORTED_MODULE_6__[/* warn */ "c"])("react-i18next: the passed in object contained more than one variable - the object should look like {{ value, format }} where format is optional.", child);
@@ -1016,7 +893,7 @@ function renderNodes(children, targetString, i18n, i18nOptions, combinedTOpts) {
     var childrenArray = getAsArray(childs);
     childrenArray.forEach(function (child) {
       if (typeof child === 'string') return;
-      if (hasChildren(child)) getData(getChildren(child));else if (_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_2___default()(child) === 'object' && !react__WEBPACK_IMPORTED_MODULE_3___default.a.isValidElement(child)) Object.assign(data, child);
+      if (hasChildren(child)) getData(getChildren(child));else if (_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_1___default()(child) === 'object' && !react__WEBPACK_IMPORTED_MODULE_3___default.a.isValidElement(child)) Object.assign(data, child);
     });
   }
 
@@ -1033,7 +910,10 @@ function renderNodes(children, targetString, i18n, i18nOptions, combinedTOpts) {
       var translationContent = node.children && node.children[0] && node.children[0].content;
 
       if (node.type === 'tag') {
-        var child = reactNodes[parseInt(node.name, 10)] || {};
+        var tmp = reactNodes[parseInt(node.name, 10)] || {};
+        var child = Object.keys(node.attrs).length !== 0 ? mergeProps({
+          props: node.attrs
+        }, tmp) : tmp;
         var isElement = react__WEBPACK_IMPORTED_MODULE_3___default.a.isValidElement(child);
 
         if (typeof child === 'string') {
@@ -1047,7 +927,7 @@ function renderNodes(children, targetString, i18n, i18nOptions, combinedTOpts) {
           mem.push(react__WEBPACK_IMPORTED_MODULE_3___default.a.cloneElement(child, _objectSpread({}, child.props, {
             key: i
           }), inner));
-        } else if (emptyChildrenButNeedsHandling && _babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_2___default()(child) === 'object' && child.dummy && !isElement) {
+        } else if (emptyChildrenButNeedsHandling && _babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_1___default()(child) === 'object' && child.dummy && !isElement) {
           // we have a empty Trans node (the dummy element) with a targetstring that contains html tags needing
           // conversion to react nodes
           // so we just need to map the inner stuff
@@ -1082,7 +962,7 @@ function renderNodes(children, targetString, i18n, i18nOptions, combinedTOpts) {
 
             mem.push("<".concat(node.name, ">").concat(_inner3, "</").concat(node.name, ">"));
           }
-        } else if (_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_2___default()(child) === 'object' && !isElement) {
+        } else if (_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_1___default()(child) === 'object' && !isElement) {
           var content = node.children[0] ? translationContent : null; // v1
           // as interpolation was done already we just have a regular content node
           // in the translation AST while having an object in reactNodes
@@ -1132,13 +1012,11 @@ function Trans(_ref) {
       tFromProps = _ref.t,
       additionalProps = _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0___default()(_ref, ["children", "count", "parent", "i18nKey", "tOptions", "values", "defaults", "components", "ns", "i18n", "t"]);
 
-  var ReactI18nContext = Object(react__WEBPACK_IMPORTED_MODULE_3__["useContext"])(_context__WEBPACK_IMPORTED_MODULE_5__[/* I18nContext */ "a"]);
-
-  var _ref2 = Object(_context__WEBPACK_IMPORTED_MODULE_5__[/* getHasUsedI18nextProvider */ "d"])() ? ReactI18nContext || {} : {},
+  var _ref2 = Object(react__WEBPACK_IMPORTED_MODULE_3__["useContext"])(_context__WEBPACK_IMPORTED_MODULE_5__[/* I18nContext */ "a"]) || {},
       i18nFromContext = _ref2.i18n,
       defaultNSFromContext = _ref2.defaultNS;
 
-  var i18n = i18nFromProps || i18nFromContext || Object(_context__WEBPACK_IMPORTED_MODULE_5__[/* getI18n */ "e"])();
+  var i18n = i18nFromProps || i18nFromContext || Object(_context__WEBPACK_IMPORTED_MODULE_5__[/* getI18n */ "d"])();
 
   if (!i18n) {
     Object(_utils__WEBPACK_IMPORTED_MODULE_6__[/* warnOnce */ "d"])('You will need pass in an i18next instance by using i18nextReactModule');
@@ -1149,13 +1027,12 @@ function Trans(_ref) {
     return k;
   };
 
-  var reactI18nextOptions = _objectSpread({}, Object(_context__WEBPACK_IMPORTED_MODULE_5__[/* getDefaults */ "c"])(), {}, i18n.options && i18n.options.react);
+  var reactI18nextOptions = _objectSpread({}, Object(_context__WEBPACK_IMPORTED_MODULE_5__[/* getDefaults */ "c"])(), {}, i18n.options && i18n.options.react); // prepare having a namespace
 
-  var useAsParent = parent !== undefined ? parent : reactI18nextOptions.defaultTransParent; // prepare having a namespace
 
   var namespaces = ns || t.ns || defaultNSFromContext || i18n.options && i18n.options.defaultNS;
   namespaces = typeof namespaces === 'string' ? [namespaces] : namespaces || ['translation'];
-  var defaultValue = defaults || nodesToString('', children, 0, reactI18nextOptions) || reactI18nextOptions.transEmptyNodeValue || i18nKey;
+  var defaultValue = defaults || nodesToString(children, reactI18nextOptions) || reactI18nextOptions.transEmptyNodeValue || i18nKey;
   var hashTransKey = reactI18nextOptions.hashTransKey;
   var key = i18nKey || (hashTransKey ? hashTransKey(defaultValue) : defaultValue);
   var interpolationOverride = values ? {} : {
@@ -1173,13 +1050,146 @@ function Trans(_ref) {
   });
 
   var translation = key ? t(key, combinedTOpts) : defaultValue;
-  if (!useAsParent) return renderNodes(components || children, translation, i18n, reactI18nextOptions, combinedTOpts);
-  return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(useAsParent, additionalProps, renderNodes(components || children, translation, i18n, reactI18nextOptions, combinedTOpts));
+  var content = renderNodes(components || children, translation, i18n, reactI18nextOptions, combinedTOpts); // allows user to pass `null` to `parent`
+  // and override `defaultTransParent` if is present
+
+  var useAsParent = parent !== undefined ? parent : reactI18nextOptions.defaultTransParent;
+  return useAsParent ? react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(useAsParent, additionalProps, content) : content;
 }
 
 /***/ }),
 
-/***/ 28:
+/***/ 25:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return I18nContext; });
+/* unused harmony export setDefaults */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return getDefaults; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return ReportNamespaces; });
+/* unused harmony export setI18n */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return getI18n; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return initReactI18next; });
+/* unused harmony export composeInitialProps */
+/* unused harmony export getInitialProps */
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(129);
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(130);
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(44);
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+
+
+
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+
+var defaultOptions = {
+  bindI18n: 'languageChanged',
+  bindI18nStore: '',
+  // nsMode: 'fallback' // loop through all namespaces given to hook, HOC, render prop for key lookup
+  transEmptyNodeValue: '',
+  transSupportBasicHtmlNodes: true,
+  transKeepBasicHtmlNodesFor: ['br', 'strong', 'i', 'p'],
+  // hashTransKey: key => key // calculate a key for Trans component based on defaultValue
+  useSuspense: true
+};
+var i18nInstance;
+var I18nContext = react__WEBPACK_IMPORTED_MODULE_3___default.a.createContext();
+function setDefaults() {
+  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  defaultOptions = _objectSpread({}, defaultOptions, {}, options);
+}
+function getDefaults() {
+  return defaultOptions;
+}
+var ReportNamespaces = /*#__PURE__*/function () {
+  function ReportNamespaces() {
+    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default()(this, ReportNamespaces);
+
+    this.usedNamespaces = {};
+  }
+
+  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default()(ReportNamespaces, [{
+    key: "addUsedNamespaces",
+    value: function addUsedNamespaces(namespaces) {
+      var _this = this;
+
+      namespaces.forEach(function (ns) {
+        if (!_this.usedNamespaces[ns]) _this.usedNamespaces[ns] = true;
+      });
+    }
+  }, {
+    key: "getUsedNamespaces",
+    value: function getUsedNamespaces() {
+      return Object.keys(this.usedNamespaces);
+    }
+  }]);
+
+  return ReportNamespaces;
+}();
+function setI18n(instance) {
+  i18nInstance = instance;
+}
+function getI18n() {
+  return i18nInstance;
+}
+var initReactI18next = {
+  type: '3rdParty',
+  init: function init(instance) {
+    setDefaults(instance.options.react);
+    setI18n(instance);
+  }
+};
+function composeInitialProps(ForComponent) {
+  return function (ctx) {
+    return new Promise(function (resolve) {
+      var i18nInitialProps = getInitialProps();
+
+      if (ForComponent.getInitialProps) {
+        ForComponent.getInitialProps(ctx).then(function (componentsInitialProps) {
+          resolve(_objectSpread({}, componentsInitialProps, {}, i18nInitialProps));
+        });
+      } else {
+        resolve(i18nInitialProps);
+      }
+    });
+  }; // Avoid async for now - so we do not need to pull in regenerator
+  // return async ctx => {
+  //   const componentsInitialProps = ForComponent.getInitialProps
+  //     ? await ForComponent.getInitialProps(ctx)
+  //     : {};
+  //   const i18nInitialProps = getInitialProps();
+  //   return {
+  //     ...componentsInitialProps,
+  //     ...i18nInitialProps,
+  //   };
+  // };
+}
+function getInitialProps() {
+  var i18n = getI18n();
+  var namespaces = i18n.reportNamespaces ? i18n.reportNamespaces.getUsedNamespaces() : [];
+  var ret = {};
+  var initialI18nStore = {};
+  i18n.languages.forEach(function (l) {
+    initialI18nStore[l] = {};
+    namespaces.forEach(function (ns) {
+      initialI18nStore[l][ns] = i18n.getResourceBundle(l, ns) || {};
+    });
+  });
+  ret.initialI18nStore = initialI18nStore;
+  ret.initialLanguage = i18n.language;
+  return ret;
+}
+
+/***/ }),
+
+/***/ 26:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1274,41 +1284,33 @@ function getDisplayName(Component) {
 
 /***/ }),
 
-/***/ 33:
+/***/ 32:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 
 // EXPORTS
-__webpack_require__.d(__webpack_exports__, "a", function() { return /* binding */ react_toastify_ToastContainer; });
-__webpack_require__.d(__webpack_exports__, "b", function() { return /* binding */ react_toastify_toast; });
+__webpack_require__.d(__webpack_exports__, "a", function() { return /* binding */ react_toastify_esm_ToastContainer; });
+__webpack_require__.d(__webpack_exports__, "b", function() { return /* binding */ react_toastify_esm_toast; });
 
-// UNUSED EXPORTS: Bounce, Flip, Slide, ToastPosition, ToastType, Zoom, cssTransition
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
-var esm_extends = __webpack_require__(13);
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js
-var objectWithoutPropertiesLoose = __webpack_require__(36);
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js
-var inheritsLoose = __webpack_require__(37);
+// UNUSED EXPORTS: Bounce, Flip, Slide, Zoom, collapseToast, cssTransition, useToast, useToastContainer
 
 // EXTERNAL MODULE: ./node_modules/react/index.js
 var react = __webpack_require__(1);
 var react_default = /*#__PURE__*/__webpack_require__.n(react);
 
-// EXTERNAL MODULE: ./node_modules/prop-types/index.js
-var prop_types = __webpack_require__(2);
-var prop_types_default = /*#__PURE__*/__webpack_require__.n(prop_types);
-
-// EXTERNAL MODULE: ./node_modules/classnames/index.js
-var classnames = __webpack_require__(58);
-var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
-
 // EXTERNAL MODULE: ./node_modules/react-dom/index.js
-var react_dom = __webpack_require__(45);
+var react_dom = __webpack_require__(33);
 var react_dom_default = /*#__PURE__*/__webpack_require__.n(react_dom);
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js
+var objectWithoutPropertiesLoose = __webpack_require__(131);
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js
+var inheritsLoose = __webpack_require__(132);
+
+// EXTERNAL MODULE: ./node_modules/prop-types/index.js
+var prop_types = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./node_modules/react-transition-group/esm/config.js
 /* harmony default export */ var config = ({
@@ -1423,9 +1425,7 @@ var EXITING = 'exiting';
  * `'exiting'` to `'exited'`.
  */
 
-var Transition_Transition =
-/*#__PURE__*/
-function (_React$Component) {
+var Transition_Transition = /*#__PURE__*/function (_React$Component) {
   Object(inheritsLoose["a" /* default */])(Transition, _React$Component);
 
   function Transition(props, context) {
@@ -1470,7 +1470,7 @@ function (_React$Component) {
     }
 
     return null;
-  }; // getSnapshotBeforeUpdate(prevProps) {
+  } // getSnapshotBeforeUpdate(prevProps) {
   //   let nextStatus = null
   //   if (prevProps !== this.props) {
   //     const { status } = this.state
@@ -1486,7 +1486,7 @@ function (_React$Component) {
   //   }
   //   return { nextStatus }
   // }
-
+  ;
 
   var _proto = Transition.prototype;
 
@@ -1545,12 +1545,11 @@ function (_React$Component) {
     if (nextStatus !== null) {
       // nextStatus will always be ENTERING or EXITING.
       this.cancelNextCallback();
-      var node = react_dom_default.a.findDOMNode(this);
 
       if (nextStatus === ENTERING) {
-        this.performEnter(node, mounting);
+        this.performEnter(mounting);
       } else {
-        this.performExit(node);
+        this.performExit();
       }
     } else if (this.props.unmountOnExit && this.state.status === EXITED) {
       this.setState({
@@ -1559,11 +1558,16 @@ function (_React$Component) {
     }
   };
 
-  _proto.performEnter = function performEnter(node, mounting) {
+  _proto.performEnter = function performEnter(mounting) {
     var _this2 = this;
 
     var enter = this.props.enter;
     var appearing = this.context ? this.context.isMounting : mounting;
+
+    var _ref2 = this.props.nodeRef ? [appearing] : [react_dom_default.a.findDOMNode(this), appearing],
+        maybeNode = _ref2[0],
+        maybeAppearing = _ref2[1];
+
     var timeouts = this.getTimeouts();
     var enterTimeout = appearing ? timeouts.appear : timeouts.enter; // no enter animation skip right to ENTERED
     // if we are mounting and running this it means appear _must_ be set
@@ -1572,53 +1576,54 @@ function (_React$Component) {
       this.safeSetState({
         status: ENTERED
       }, function () {
-        _this2.props.onEntered(node);
+        _this2.props.onEntered(maybeNode);
       });
       return;
     }
 
-    this.props.onEnter(node, appearing);
+    this.props.onEnter(maybeNode, maybeAppearing);
     this.safeSetState({
       status: ENTERING
     }, function () {
-      _this2.props.onEntering(node, appearing);
+      _this2.props.onEntering(maybeNode, maybeAppearing);
 
-      _this2.onTransitionEnd(node, enterTimeout, function () {
+      _this2.onTransitionEnd(enterTimeout, function () {
         _this2.safeSetState({
           status: ENTERED
         }, function () {
-          _this2.props.onEntered(node, appearing);
+          _this2.props.onEntered(maybeNode, maybeAppearing);
         });
       });
     });
   };
 
-  _proto.performExit = function performExit(node) {
+  _proto.performExit = function performExit() {
     var _this3 = this;
 
     var exit = this.props.exit;
-    var timeouts = this.getTimeouts(); // no exit animation skip right to EXITED
+    var timeouts = this.getTimeouts();
+    var maybeNode = this.props.nodeRef ? undefined : react_dom_default.a.findDOMNode(this); // no exit animation skip right to EXITED
 
     if (!exit || config.disabled) {
       this.safeSetState({
         status: EXITED
       }, function () {
-        _this3.props.onExited(node);
+        _this3.props.onExited(maybeNode);
       });
       return;
     }
 
-    this.props.onExit(node);
+    this.props.onExit(maybeNode);
     this.safeSetState({
       status: EXITING
     }, function () {
-      _this3.props.onExiting(node);
+      _this3.props.onExiting(maybeNode);
 
-      _this3.onTransitionEnd(node, timeouts.exit, function () {
+      _this3.onTransitionEnd(timeouts.exit, function () {
         _this3.safeSetState({
           status: EXITED
         }, function () {
-          _this3.props.onExited(node);
+          _this3.props.onExited(maybeNode);
         });
       });
     });
@@ -1659,8 +1664,9 @@ function (_React$Component) {
     return this.nextCallback;
   };
 
-  _proto.onTransitionEnd = function onTransitionEnd(node, timeout, handler) {
+  _proto.onTransitionEnd = function onTransitionEnd(timeout, handler) {
     this.setNextCallback(handler);
+    var node = this.props.nodeRef ? this.props.nodeRef.current : react_dom_default.a.findDOMNode(this);
     var doesNotHaveTimeoutOrListener = timeout == null && !this.props.addEndListener;
 
     if (!node || doesNotHaveTimeoutOrListener) {
@@ -1669,7 +1675,11 @@ function (_React$Component) {
     }
 
     if (this.props.addEndListener) {
-      this.props.addEndListener(node, this.nextCallback);
+      var _ref3 = this.props.nodeRef ? [this.nextCallback] : [node, this.nextCallback],
+          maybeNode = _ref3[0],
+          maybeNextCallback = _ref3[1];
+
+      this.props.addEndListener(maybeNode, maybeNextCallback);
     }
 
     if (timeout != null) {
@@ -1686,36 +1696,29 @@ function (_React$Component) {
 
     var _this$props = this.props,
         children = _this$props.children,
-        childProps = Object(objectWithoutPropertiesLoose["a" /* default */])(_this$props, ["children"]); // filter props for Transtition
+        _in = _this$props.in,
+        _mountOnEnter = _this$props.mountOnEnter,
+        _unmountOnExit = _this$props.unmountOnExit,
+        _appear = _this$props.appear,
+        _enter = _this$props.enter,
+        _exit = _this$props.exit,
+        _timeout = _this$props.timeout,
+        _addEndListener = _this$props.addEndListener,
+        _onEnter = _this$props.onEnter,
+        _onEntering = _this$props.onEntering,
+        _onEntered = _this$props.onEntered,
+        _onExit = _this$props.onExit,
+        _onExiting = _this$props.onExiting,
+        _onExited = _this$props.onExited,
+        _nodeRef = _this$props.nodeRef,
+        childProps = Object(objectWithoutPropertiesLoose["a" /* default */])(_this$props, ["children", "in", "mountOnEnter", "unmountOnExit", "appear", "enter", "exit", "timeout", "addEndListener", "onEnter", "onEntering", "onEntered", "onExit", "onExiting", "onExited", "nodeRef"]);
 
-
-    delete childProps.in;
-    delete childProps.mountOnEnter;
-    delete childProps.unmountOnExit;
-    delete childProps.appear;
-    delete childProps.enter;
-    delete childProps.exit;
-    delete childProps.timeout;
-    delete childProps.addEndListener;
-    delete childProps.onEnter;
-    delete childProps.onEntering;
-    delete childProps.onEntered;
-    delete childProps.onExit;
-    delete childProps.onExiting;
-    delete childProps.onExited;
-
-    if (typeof children === 'function') {
+    return (
+      /*#__PURE__*/
       // allows for nested Transitions
-      return react_default.a.createElement(TransitionGroupContext.Provider, {
-        value: null
-      }, children(status, childProps));
-    }
-
-    var child = react_default.a.Children.only(children);
-    return (// allows for nested Transitions
       react_default.a.createElement(TransitionGroupContext.Provider, {
         value: null
-      }, react_default.a.cloneElement(child, childProps))
+      }, typeof children === 'function' ? children(status, childProps) : react_default.a.cloneElement(react_default.a.Children.only(children), childProps))
     );
   };
 
@@ -1723,7 +1726,7 @@ function (_React$Component) {
 }(react_default.a.Component);
 
 Transition_Transition.contextType = TransitionGroupContext;
-Transition_Transition.propTypes =  false ? undefined : {};
+Transition_Transition.propTypes =  false ? undefined : {}; // Name the function so it is clearer in the documentation
 
 function noop() {}
 
@@ -1741,370 +1744,74 @@ Transition_Transition.defaultProps = {
   onExiting: noop,
   onExited: noop
 };
-Transition_Transition.UNMOUNTED = 0;
-Transition_Transition.EXITED = 1;
-Transition_Transition.ENTERING = 2;
-Transition_Transition.ENTERED = 3;
-Transition_Transition.EXITING = 4;
+Transition_Transition.UNMOUNTED = UNMOUNTED;
+Transition_Transition.EXITED = EXITED;
+Transition_Transition.ENTERING = ENTERING;
+Transition_Transition.ENTERED = ENTERED;
+Transition_Transition.EXITING = EXITING;
 /* harmony default export */ var esm_Transition = (Transition_Transition);
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js
-var assertThisInitialized = __webpack_require__(18);
+// EXTERNAL MODULE: ./node_modules/classnames/index.js
+var classnames = __webpack_require__(55);
+var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
 
-// CONCATENATED MODULE: ./node_modules/react-transition-group/esm/utils/ChildMapping.js
-
-/**
- * Given `this.props.children`, return an object mapping key to child.
- *
- * @param {*} children `this.props.children`
- * @return {object} Mapping of key to child
- */
-
-function getChildMapping(children, mapFn) {
-  var mapper = function mapper(child) {
-    return mapFn && Object(react["isValidElement"])(child) ? mapFn(child) : child;
-  };
-
-  var result = Object.create(null);
-  if (children) react["Children"].map(children, function (c) {
-    return c;
-  }).forEach(function (child) {
-    // run the map function here instead so that the key is the computed one
-    result[child.key] = mapper(child);
-  });
-  return result;
-}
-/**
- * When you're adding or removing children some may be added or removed in the
- * same render pass. We want to show *both* since we want to simultaneously
- * animate elements in and out. This function takes a previous set of keys
- * and a new set of keys and merges them with its best guess of the correct
- * ordering. In the future we may expose some of the utilities in
- * ReactMultiChild to make this easy, but for now React itself does not
- * directly have this concept of the union of prevChildren and nextChildren
- * so we implement it here.
- *
- * @param {object} prev prev children as returned from
- * `ReactTransitionChildMapping.getChildMapping()`.
- * @param {object} next next children as returned from
- * `ReactTransitionChildMapping.getChildMapping()`.
- * @return {object} a key set that contains all keys in `prev` and all keys
- * in `next` in a reasonable order.
- */
-
-function mergeChildMappings(prev, next) {
-  prev = prev || {};
-  next = next || {};
-
-  function getValueForKey(key) {
-    return key in next ? next[key] : prev[key];
-  } // For each key of `next`, the list of keys to insert before that key in
-  // the combined list
+// CONCATENATED MODULE: ./node_modules/react-toastify/dist/react-toastify.esm.js
 
 
-  var nextKeysPending = Object.create(null);
-  var pendingKeys = [];
 
-  for (var prevKey in prev) {
-    if (prevKey in next) {
-      if (pendingKeys.length) {
-        nextKeysPending[prevKey] = pendingKeys;
-        pendingKeys = [];
-      }
-    } else {
-      pendingKeys.push(prevKey);
-    }
-  }
 
-  var i;
-  var childMapping = {};
 
-  for (var nextKey in next) {
-    if (nextKeysPending[nextKey]) {
-      for (i = 0; i < nextKeysPending[nextKey].length; i++) {
-        var pendingNextKey = nextKeysPending[nextKey][i];
-        childMapping[nextKeysPending[nextKey][i]] = getValueForKey(pendingNextKey);
+
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
       }
     }
 
-    childMapping[nextKey] = getValueForKey(nextKey);
-  } // Finally, add the keys which didn't appear before any key in `next`
+    return target;
+  };
 
+  return _extends.apply(this, arguments);
+}
 
-  for (i = 0; i < pendingKeys.length; i++) {
-    childMapping[pendingKeys[i]] = getValueForKey(pendingKeys[i]);
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
   }
 
-  return childMapping;
+  return target;
 }
-
-function getProp(child, prop, props) {
-  return props[prop] != null ? props[prop] : child.props[prop];
-}
-
-function getInitialChildMapping(props, onExited) {
-  return getChildMapping(props.children, function (child) {
-    return Object(react["cloneElement"])(child, {
-      onExited: onExited.bind(null, child),
-      in: true,
-      appear: getProp(child, 'appear', props),
-      enter: getProp(child, 'enter', props),
-      exit: getProp(child, 'exit', props)
-    });
-  });
-}
-function getNextChildMapping(nextProps, prevChildMapping, onExited) {
-  var nextChildMapping = getChildMapping(nextProps.children);
-  var children = mergeChildMappings(prevChildMapping, nextChildMapping);
-  Object.keys(children).forEach(function (key) {
-    var child = children[key];
-    if (!Object(react["isValidElement"])(child)) return;
-    var hasPrev = key in prevChildMapping;
-    var hasNext = key in nextChildMapping;
-    var prevChild = prevChildMapping[key];
-    var isLeaving = Object(react["isValidElement"])(prevChild) && !prevChild.props.in; // item is new (entering)
-
-    if (hasNext && (!hasPrev || isLeaving)) {
-      // console.log('entering', key)
-      children[key] = Object(react["cloneElement"])(child, {
-        onExited: onExited.bind(null, child),
-        in: true,
-        exit: getProp(child, 'exit', nextProps),
-        enter: getProp(child, 'enter', nextProps)
-      });
-    } else if (!hasNext && hasPrev && !isLeaving) {
-      // item is old (exiting)
-      // console.log('leaving', key)
-      children[key] = Object(react["cloneElement"])(child, {
-        in: false
-      });
-    } else if (hasNext && hasPrev && Object(react["isValidElement"])(prevChild)) {
-      // item hasn't changed transition states
-      // copy over the last transition props;
-      // console.log('unchanged', key)
-      children[key] = Object(react["cloneElement"])(child, {
-        onExited: onExited.bind(null, child),
-        in: prevChild.props.in,
-        exit: getProp(child, 'exit', nextProps),
-        enter: getProp(child, 'enter', nextProps)
-      });
-    }
-  });
-  return children;
-}
-// CONCATENATED MODULE: ./node_modules/react-transition-group/esm/TransitionGroup.js
-
-
-
-
-
-
-
-
-
-var values = Object.values || function (obj) {
-  return Object.keys(obj).map(function (k) {
-    return obj[k];
-  });
-};
-
-var defaultProps = {
-  component: 'div',
-  childFactory: function childFactory(child) {
-    return child;
-  }
-  /**
-   * The `<TransitionGroup>` component manages a set of transition components
-   * (`<Transition>` and `<CSSTransition>`) in a list. Like with the transition
-   * components, `<TransitionGroup>` is a state machine for managing the mounting
-   * and unmounting of components over time.
-   *
-   * Consider the example below. As items are removed or added to the TodoList the
-   * `in` prop is toggled automatically by the `<TransitionGroup>`.
-   *
-   * Note that `<TransitionGroup>`  does not define any animation behavior!
-   * Exactly _how_ a list item animates is up to the individual transition
-   * component. This means you can mix and match animations across different list
-   * items.
-   */
-
-};
-
-var TransitionGroup_TransitionGroup =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(inheritsLoose["a" /* default */])(TransitionGroup, _React$Component);
-
-  function TransitionGroup(props, context) {
-    var _this;
-
-    _this = _React$Component.call(this, props, context) || this;
-
-    var handleExited = _this.handleExited.bind(Object(assertThisInitialized["a" /* default */])(Object(assertThisInitialized["a" /* default */])(_this))); // Initial children should all be entering, dependent on appear
-
-
-    _this.state = {
-      contextValue: {
-        isMounting: true
-      },
-      handleExited: handleExited,
-      firstRender: true
-    };
-    return _this;
-  }
-
-  var _proto = TransitionGroup.prototype;
-
-  _proto.componentDidMount = function componentDidMount() {
-    this.mounted = true;
-    this.setState({
-      contextValue: {
-        isMounting: false
-      }
-    });
-  };
-
-  _proto.componentWillUnmount = function componentWillUnmount() {
-    this.mounted = false;
-  };
-
-  TransitionGroup.getDerivedStateFromProps = function getDerivedStateFromProps(nextProps, _ref) {
-    var prevChildMapping = _ref.children,
-        handleExited = _ref.handleExited,
-        firstRender = _ref.firstRender;
-    return {
-      children: firstRender ? getInitialChildMapping(nextProps, handleExited) : getNextChildMapping(nextProps, prevChildMapping, handleExited),
-      firstRender: false
-    };
-  };
-
-  _proto.handleExited = function handleExited(child, node) {
-    var currentChildMapping = getChildMapping(this.props.children);
-    if (child.key in currentChildMapping) return;
-
-    if (child.props.onExited) {
-      child.props.onExited(node);
-    }
-
-    if (this.mounted) {
-      this.setState(function (state) {
-        var children = Object(esm_extends["a" /* default */])({}, state.children);
-
-        delete children[child.key];
-        return {
-          children: children
-        };
-      });
-    }
-  };
-
-  _proto.render = function render() {
-    var _this$props = this.props,
-        Component = _this$props.component,
-        childFactory = _this$props.childFactory,
-        props = Object(objectWithoutPropertiesLoose["a" /* default */])(_this$props, ["component", "childFactory"]);
-
-    var contextValue = this.state.contextValue;
-    var children = values(this.state.children).map(childFactory);
-    delete props.appear;
-    delete props.enter;
-    delete props.exit;
-
-    if (Component === null) {
-      return react_default.a.createElement(TransitionGroupContext.Provider, {
-        value: contextValue
-      }, children);
-    }
-
-    return react_default.a.createElement(TransitionGroupContext.Provider, {
-      value: contextValue
-    }, react_default.a.createElement(Component, props, children));
-  };
-
-  return TransitionGroup;
-}(react_default.a.Component);
-
-TransitionGroup_TransitionGroup.propTypes =  false ? undefined : {};
-TransitionGroup_TransitionGroup.defaultProps = defaultProps;
-/* harmony default export */ var esm_TransitionGroup = (TransitionGroup_TransitionGroup);
-// CONCATENATED MODULE: ./node_modules/react-toastify/esm/react-toastify.js
-
-
-
-
-
-
-
-
-
-var POSITION = {
-  TOP_LEFT: 'top-left',
-  TOP_RIGHT: 'top-right',
-  TOP_CENTER: 'top-center',
-  BOTTOM_LEFT: 'bottom-left',
-  BOTTOM_RIGHT: 'bottom-right',
-  BOTTOM_CENTER: 'bottom-center'
-};
-var TYPE = {
-  INFO: 'info',
-  SUCCESS: 'success',
-  WARNING: 'warning',
-  ERROR: 'error',
-  DEFAULT: 'default'
-};
-var ACTION = {
-  SHOW: 0,
-  CLEAR: 1,
-  DID_MOUNT: 2,
-  WILL_UNMOUNT: 3,
-  ON_CHANGE: 4
-};
-var NOOP = function NOOP() {};
-var RT_NAMESPACE = 'Toastify';
-
-function isValidDelay(val) {
-  return typeof val === 'number' && !isNaN(val) && val > 0;
-}
-function objectValues(obj) {
-  return Object.keys(obj).map(function (key) {
-    return obj[key];
-  });
-}
-var canUseDom = !!(typeof window !== 'undefined' && window.document && window.document.createElement);
-
-function withRequired(fn) {
-  fn.isRequired = function (props, propName, componentName) {
-    var prop = props[propName];
-
-    if (typeof prop === 'undefined') {
-      return new Error("The prop " + propName + " is marked as required in \n      " + componentName + ", but its value is undefined.");
-    }
-
-    fn(props, propName, componentName);
-  };
-
-  return fn;
-}
-
-var falseOrDelay = withRequired(function (props, propName, componentName) {
-  var prop = props[propName];
-
-  if (prop !== false && !isValidDelay(prop)) {
-    return new Error(componentName + " expect " + propName + " \n      to be a valid Number > 0 or equal to false. " + prop + " given.");
-  }
-
-  return null;
-});
 
 var eventManager = {
-  list: new Map(),
-  emitQueue: new Map(),
+  list: /*#__PURE__*/new Map(),
+  emitQueue: /*#__PURE__*/new Map(),
   on: function on(event, callback) {
     this.list.has(event) || this.list.set(event, []);
     this.list.get(event).push(callback);
     return this;
   },
-  off: function off(event) {
-    this.list.delete(event);
+  off: function off(event, callback) {
+    if (callback) {
+      var cb = this.list.get(event).filter(function (cb) {
+        return cb !== callback;
+      });
+      this.list.set(event, cb);
+      return this;
+    }
+
+    this.list["delete"](event);
     return this;
   },
   cancelEmit: function cancelEmit(event) {
@@ -2114,7 +1821,7 @@ var eventManager = {
       timers.forEach(function (timer) {
         return clearTimeout(timer);
       });
-      this.emitQueue.delete(event);
+      this.emitQueue["delete"](event);
     }
 
     return this;
@@ -2137,6 +1844,7 @@ var eventManager = {
 
     this.list.has(event) && this.list.get(event).forEach(function (callback) {
       var timer = setTimeout(function () {
+        // @ts-ignore
         callback.apply(void 0, args);
       }, 0);
       _this.emitQueue.has(event) || _this.emitQueue.set(event, []);
@@ -2146,57 +1854,189 @@ var eventManager = {
   }
 };
 
+function isNum(v) {
+  return typeof v === 'number' && !isNaN(v);
+}
+function isBool(v) {
+  return typeof v === 'boolean';
+}
+function isStr(v) {
+  return typeof v === 'string';
+}
+function isFn(v) {
+  return typeof v === 'function';
+}
+function parseClassName(v) {
+  return typeof v === 'string' ? v : null;
+}
+function objectValues(obj) {
+  return Object.keys(obj).map(function (key) {
+    return obj[key];
+  });
+}
+function hasToastId(toastId) {
+  return toastId === 0 || toastId;
+}
+function getAutoCloseDelay(toastAutoClose, containerAutoClose) {
+  return toastAutoClose === false || isNum(toastAutoClose) && toastAutoClose > 0 ? toastAutoClose : containerAutoClose;
+}
+var canUseDom = !!(typeof window !== 'undefined' && window.document && window.document.createElement);
+function canBeRendered(content) {
+  return Object(react["isValidElement"])(content) || isStr(content) || isFn(content) || isNum(content);
+}
+
+var POSITION = {
+  TOP_LEFT: 'top-left',
+  TOP_RIGHT: 'top-right',
+  TOP_CENTER: 'top-center',
+  BOTTOM_LEFT: 'bottom-left',
+  BOTTOM_RIGHT: 'bottom-right',
+  BOTTOM_CENTER: 'bottom-center'
+};
+var TYPE = {
+  INFO: 'info',
+  SUCCESS: 'success',
+  WARNING: 'warning',
+  ERROR: 'error',
+  DEFAULT: 'default',
+  DARK: 'dark'
+};
+
+/**
+ * Used to collapse toast after exit animation
+ */
+function collapseToast(node, done, duration
+/* COLLAPSE_DURATION */
+) {
+  if (duration === void 0) {
+    duration = 300;
+  }
+
+  var height = node.scrollHeight;
+  var style = node.style;
+  requestAnimationFrame(function () {
+    style.minHeight = 'initial';
+    style.height = height + 'px';
+    style.transition = "all " + duration + "ms";
+    requestAnimationFrame(function () {
+      style.height = '0';
+      style.padding = '0';
+      style.margin = '0';
+      setTimeout(function () {
+        return done();
+      }, duration);
+    });
+  });
+}
+
 function cssTransition(_ref) {
   var enter = _ref.enter,
       exit = _ref.exit,
       _ref$duration = _ref.duration,
       duration = _ref$duration === void 0 ? 750 : _ref$duration,
       _ref$appendPosition = _ref.appendPosition,
-      appendPosition = _ref$appendPosition === void 0 ? false : _ref$appendPosition;
-  return function Animation(_ref2) {
+      appendPosition = _ref$appendPosition === void 0 ? false : _ref$appendPosition,
+      _ref$collapse = _ref.collapse,
+      collapse = _ref$collapse === void 0 ? true : _ref$collapse,
+      _ref$collapseDuration = _ref.collapseDuration,
+      collapseDuration = _ref$collapseDuration === void 0 ? 300 : _ref$collapseDuration;
+  var enterDuration, exitDuration;
+
+  if (Array.isArray(duration) && duration.length === 2) {
+    enterDuration = duration[0];
+    exitDuration = duration[1];
+  } else {
+    enterDuration = exitDuration = duration;
+  }
+
+  return function ToastTransition(_ref2) {
     var children = _ref2.children,
         position = _ref2.position,
         preventExitTransition = _ref2.preventExitTransition,
-        props = Object(objectWithoutPropertiesLoose["a" /* default */])(_ref2, ["children", "position", "preventExitTransition"]);
+        done = _ref2.done,
+        props = _objectWithoutPropertiesLoose(_ref2, ["children", "position", "preventExitTransition", "done"]);
 
     var enterClassName = appendPosition ? enter + "--" + position : enter;
     var exitClassName = appendPosition ? exit + "--" + position : exit;
-    var enterDuration, exitDuration;
 
-    if (Array.isArray(duration) && duration.length === 2) {
-      enterDuration = duration[0];
-      exitDuration = duration[1];
-    } else {
-      enterDuration = exitDuration = duration;
-    }
+    var onEnter = function onEnter() {
+      var node = props.nodeRef.current;
 
-    var onEnter = function onEnter(node) {
-      node.classList.add(enterClassName);
-      node.style.animationFillMode = 'forwards';
-      node.style.animationDuration = enterDuration * 0.001 + "s";
+      if (node) {
+        node.classList.add(enterClassName);
+        node.style.animationFillMode = 'forwards';
+        node.style.animationDuration = enterDuration + "ms";
+      }
     };
 
-    var onEntered = function onEntered(node) {
-      node.classList.remove(enterClassName);
-      node.style.cssText = '';
+    var onEntered = function onEntered() {
+      var node = props.nodeRef.current;
+
+      if (node) {
+        node.classList.remove(enterClassName);
+        node.style.cssText = '';
+      }
     };
 
-    var onExit = function onExit(node) {
-      node.classList.add(exitClassName);
-      node.style.animationFillMode = 'forwards';
-      node.style.animationDuration = exitDuration * 0.001 + "s";
+    var onExited = function onExited() {
+      var node = props.nodeRef.current;
+
+      if (node) {
+        node.removeEventListener('animationend', onExited);
+        collapse ? collapseToast(node, done, collapseDuration) : done();
+      }
     };
 
-    return react_default.a.createElement(esm_Transition, Object(esm_extends["a" /* default */])({}, props, {
+    var onExit = function onExit() {
+      var node = props.nodeRef.current;
+
+      if (node) {
+        node.classList.add(exitClassName);
+        node.style.animationFillMode = 'forwards';
+        node.style.animationDuration = exitDuration + "ms";
+        node.addEventListener('animationend', onExited);
+      }
+    };
+
+    return Object(react["createElement"])(esm_Transition, Object.assign({}, props, {
       timeout: preventExitTransition ? 0 : {
         enter: enterDuration,
-        exit: exitDuration
+        exit: collapse ? exitDuration + collapseDuration : exitDuration + 50
+        /* DEBOUNCE_DURATION */
+
       },
       onEnter: onEnter,
       onEntered: onEntered,
-      onExit: preventExitTransition ? NOOP : onExit
+      onExit: preventExitTransition ? done : onExit,
+      unmountOnExit: true
     }), children);
   };
+}
+
+function CloseButton(_ref) {
+  var closeToast = _ref.closeToast,
+      type = _ref.type,
+      _ref$ariaLabel = _ref.ariaLabel,
+      ariaLabel = _ref$ariaLabel === void 0 ? 'close' : _ref$ariaLabel;
+  return Object(react["createElement"])("button", {
+    className: "Toastify"
+    /* CSS_NAMESPACE */
+    + "__close-button " + "Toastify"
+    /* CSS_NAMESPACE */
+    + "__close-button--" + type,
+    type: "button",
+    onClick: function onClick(e) {
+      e.stopPropagation();
+      closeToast(e);
+    },
+    "aria-label": ariaLabel
+  }, Object(react["createElement"])("svg", {
+    "aria-hidden": "true",
+    viewBox: "0 0 14 16"
+  }, Object(react["createElement"])("path", {
+    fillRule: "evenodd",
+    d: "M7.71 8.23l3.75 3.75-1.48 1.48-3.75-3.75-3.75 3.75L1 11.98l3.75-3.75L1 4.48 2.48 3l3.75 3.75L9.98 3l1.48 1.48-3.75 3.75z"
+  })));
 }
 
 function ProgressBar(_ref) {
@@ -2211,834 +2051,251 @@ function ProgressBar(_ref) {
       userStyle = _ref.style,
       controlledProgress = _ref.controlledProgress,
       progress = _ref.progress,
-      rtl = _ref.rtl;
+      rtl = _ref.rtl,
+      isIn = _ref.isIn;
 
-  var style = Object(esm_extends["a" /* default */])({}, userStyle, {
+  var style = _extends(_extends({}, userStyle), {}, {
     animationDuration: delay + "ms",
     animationPlayState: isRunning ? 'running' : 'paused',
-    opacity: hide ? 0 : 1,
-    transform: controlledProgress ? "scaleX(" + progress + ")" : null
+    opacity: hide ? 0 : 1
   });
 
-  var classNames = classnames_default()(RT_NAMESPACE + "__progress-bar", controlledProgress ? RT_NAMESPACE + "__progress-bar--controlled" : RT_NAMESPACE + "__progress-bar--animated", RT_NAMESPACE + "__progress-bar--" + type, (_cx = {}, _cx[RT_NAMESPACE + "__progress-bar--rtl"] = rtl, _cx), className);
-  var animationEvent = (_animationEvent = {}, _animationEvent[controlledProgress && progress >= 1 ? 'onTransitionEnd' : 'onAnimationEnd'] = controlledProgress && progress < 1 ? null : closeToast, _animationEvent);
-  return react_default.a.createElement("div", Object(esm_extends["a" /* default */])({
+  if (controlledProgress) style.transform = "scaleX(" + progress + ")";
+  var classNames = classnames_default()("Toastify"
+  /* CSS_NAMESPACE */
+  + "__progress-bar", controlledProgress ? "Toastify"
+  /* CSS_NAMESPACE */
+  + "__progress-bar--controlled" : "Toastify"
+  /* CSS_NAMESPACE */
+  + "__progress-bar--animated", "Toastify"
+  /* CSS_NAMESPACE */
+  + "__progress-bar--" + type, (_cx = {}, _cx["Toastify"
+  /* CSS_NAMESPACE */
+  + "__progress-bar--rtl"] = rtl, _cx), className); // 🧐 controlledProgress is derived from progress
+  // so if controlledProgress is set
+  // it means that this is also the case for progress
+
+  var animationEvent = (_animationEvent = {}, _animationEvent[controlledProgress && progress >= 1 ? 'onTransitionEnd' : 'onAnimationEnd'] = controlledProgress && progress < 1 ? null : function () {
+    isIn && closeToast();
+  }, _animationEvent);
+  return Object(react["createElement"])("div", Object.assign({
     className: classNames,
     style: style
   }, animationEvent));
 }
-
-ProgressBar.propTypes = {
-  /**
-   * The animation delay which determine when to close the toast
-   */
-  delay: falseOrDelay.isRequired,
-
-  /**
-   * Whether or not the animation is running or paused
-   */
-  isRunning: prop_types_default.a.bool.isRequired,
-
-  /**
-   * Func to close the current toast
-   */
-  closeToast: prop_types_default.a.func.isRequired,
-
-  /**
-   * Support rtl content
-   */
-  rtl: prop_types_default.a.bool.isRequired,
-
-  /**
-   * Optional type : info, success ...
-   */
-  type: prop_types_default.a.string,
-
-  /**
-   * Hide or not the progress bar
-   */
-  hide: prop_types_default.a.bool,
-
-  /**
-   * Optionnal className
-   */
-  className: prop_types_default.a.oneOfType([prop_types_default.a.string, prop_types_default.a.object]),
-
-  /**
-   * Controlled progress value
-   */
-  progress: prop_types_default.a.number,
-
-  /**
-   * Tell wether or not controlled progress bar is used
-   */
-  controlledProgress: prop_types_default.a.bool
-};
 ProgressBar.defaultProps = {
   type: TYPE.DEFAULT,
   hide: false
 };
 
-function getX(e) {
-  return e.targetTouches && e.targetTouches.length >= 1 ? e.targetTouches[0].clientX : e.clientX;
-}
+var react_toastify_esm_Toast = function Toast(props) {
+  var _cx;
 
-function getY(e) {
-  return e.targetTouches && e.targetTouches.length >= 1 ? e.targetTouches[0].clientY : e.clientY;
-}
+  var _useToast = useToast(props),
+      isRunning = _useToast.isRunning,
+      preventExitTransition = _useToast.preventExitTransition,
+      toastRef = _useToast.toastRef,
+      eventHandlers = _useToast.eventHandlers;
 
-var iLoveInternetExplorer = canUseDom && /(msie|trident)/i.test(navigator.userAgent);
+  var closeButton = props.closeButton,
+      children = props.children,
+      autoClose = props.autoClose,
+      onClick = props.onClick,
+      type = props.type,
+      hideProgressBar = props.hideProgressBar,
+      closeToast = props.closeToast,
+      Transition = props.transition,
+      position = props.position,
+      className = props.className,
+      style = props.style,
+      bodyClassName = props.bodyClassName,
+      bodyStyle = props.bodyStyle,
+      progressClassName = props.progressClassName,
+      progressStyle = props.progressStyle,
+      updateId = props.updateId,
+      role = props.role,
+      progress = props.progress,
+      rtl = props.rtl,
+      toastId = props.toastId,
+      deleteToast = props.deleteToast;
+  var cssClasses = classnames_default()("Toastify"
+  /* CSS_NAMESPACE */
+  + "__toast", "Toastify"
+  /* CSS_NAMESPACE */
+  + "__toast--" + type, (_cx = {}, _cx["Toastify"
+  /* CSS_NAMESPACE */
+  + "__toast--rtl"] = rtl, _cx), className);
+  var controlledProgress = !!progress;
 
-var react_toastify_Toast =
-/*#__PURE__*/
-function (_Component) {
-  Object(inheritsLoose["a" /* default */])(Toast, _Component);
-
-  function Toast() {
-    var _this;
-
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    _this = _Component.call.apply(_Component, [this].concat(args)) || this;
-    _this.state = {
-      isRunning: true,
-      preventExitTransition: false
+  function renderCloseButton(closeButton) {
+    if (!closeButton) return null;
+    var props = {
+      closeToast: closeToast,
+      type: type
     };
-    _this.flag = {
-      canCloseOnClick: true,
-      canDrag: false
-    };
-    _this.drag = {
-      start: 0,
-      x: 0,
-      y: 0,
-      deltaX: 0,
-      removalDistance: 0
-    };
-    _this.boundingRect = null;
-    _this.ref = null;
-
-    _this.pauseToast = function () {
-      if (_this.props.autoClose) {
-        _this.setState({
-          isRunning: false
-        });
-      }
-    };
-
-    _this.playToast = function () {
-      if (_this.props.autoClose) {
-        _this.setState({
-          isRunning: true
-        });
-      }
-    };
-
-    _this.onDragStart = function (e) {
-      _this.flag.canCloseOnClick = true;
-      _this.flag.canDrag = true;
-      _this.boundingRect = _this.ref.getBoundingClientRect();
-      _this.ref.style.transition = '';
-      _this.drag.start = _this.drag.x = getX(e.nativeEvent);
-      _this.drag.removalDistance = _this.ref.offsetWidth * (_this.props.draggablePercent / 100);
-    };
-
-    _this.onDragMove = function (e) {
-      if (_this.flag.canDrag) {
-        if (_this.state.isRunning) {
-          _this.pauseToast();
-        }
-
-        _this.drag.x = getX(e);
-        _this.drag.deltaX = _this.drag.x - _this.drag.start;
-        _this.drag.y = getY(e); // prevent false positif during a toast click
-
-        _this.drag.start !== _this.drag.x && (_this.flag.canCloseOnClick = false);
-        _this.ref.style.transform = "translateX(" + _this.drag.deltaX + "px)";
-        _this.ref.style.opacity = 1 - Math.abs(_this.drag.deltaX / _this.drag.removalDistance);
-      }
-    };
-
-    _this.onDragEnd = function (e) {
-      if (_this.flag.canDrag) {
-        _this.flag.canDrag = false;
-
-        if (Math.abs(_this.drag.deltaX) > _this.drag.removalDistance) {
-          _this.setState({
-            preventExitTransition: true
-          }, _this.props.closeToast);
-
-          return;
-        }
-
-        _this.ref.style.transition = 'transform 0.2s, opacity 0.2s';
-        _this.ref.style.transform = 'translateX(0)';
-        _this.ref.style.opacity = 1;
-      }
-    };
-
-    _this.onDragTransitionEnd = function () {
-      if (_this.boundingRect) {
-        var _this$boundingRect = _this.boundingRect,
-            top = _this$boundingRect.top,
-            bottom = _this$boundingRect.bottom,
-            left = _this$boundingRect.left,
-            right = _this$boundingRect.right;
-
-        if (_this.props.pauseOnHover && _this.drag.x >= left && _this.drag.x <= right && _this.drag.y >= top && _this.drag.y <= bottom) {
-          _this.pauseToast();
-        } else {
-          _this.playToast();
-        }
-      }
-    };
-
-    _this.onExitTransitionEnd = function () {
-      if (iLoveInternetExplorer) {
-        _this.props.onExited();
-
-        return;
-      }
-
-      var height = _this.ref.scrollHeight;
-      var style = _this.ref.style;
-      requestAnimationFrame(function () {
-        style.minHeight = 'initial';
-        style.height = height + 'px';
-        style.transition = 'all 0.4s ';
-        requestAnimationFrame(function () {
-          style.height = 0;
-          style.padding = 0;
-          style.margin = 0;
-        });
-        setTimeout(function () {
-          return _this.props.onExited();
-        }, 400);
-      });
-    };
-
-    return _this;
+    if (isFn(closeButton)) return closeButton(props);
+    if (Object(react["isValidElement"])(closeButton)) return Object(react["cloneElement"])(closeButton, props);
   }
 
-  var _proto = Toast.prototype;
-
-  _proto.componentDidMount = function componentDidMount() {
-    this.props.onOpen(this.props.children.props);
-
-    if (this.props.draggable) {
-      this.bindDragEvents();
-    } // Maybe I could bind the event in the ToastContainer and rely on delegation
-
-
-    if (this.props.pauseOnFocusLoss) {
-      this.bindFocusEvents();
-    }
-  };
-
-  _proto.componentDidUpdate = function componentDidUpdate(prevProps) {
-    if (prevProps.draggable !== this.props.draggable) {
-      if (this.props.draggable) {
-        this.bindDragEvents();
-      } else {
-        this.unbindDragEvents();
-      }
-    }
-
-    if (prevProps.pauseOnFocusLoss !== this.props.pauseOnFocusLoss) {
-      if (this.props.pauseOnFocusLoss) {
-        this.bindFocusEvents();
-      } else {
-        this.unbindFocusEvents();
-      }
-    }
-  };
-
-  _proto.componentWillUnmount = function componentWillUnmount() {
-    this.props.onClose(this.props.children.props);
-
-    if (this.props.draggable) {
-      this.unbindDragEvents();
-    }
-
-    if (this.props.pauseOnFocusLoss) {
-      this.unbindFocusEvents();
-    }
-  };
-
-  _proto.bindFocusEvents = function bindFocusEvents() {
-    window.addEventListener('focus', this.playToast);
-    window.addEventListener('blur', this.pauseToast);
-  };
-
-  _proto.unbindFocusEvents = function unbindFocusEvents() {
-    window.removeEventListener('focus', this.playToast);
-    window.removeEventListener('blur', this.pauseToast);
-  };
-
-  _proto.bindDragEvents = function bindDragEvents() {
-    document.addEventListener('mousemove', this.onDragMove);
-    document.addEventListener('mouseup', this.onDragEnd);
-    document.addEventListener('touchmove', this.onDragMove);
-    document.addEventListener('touchend', this.onDragEnd);
-  };
-
-  _proto.unbindDragEvents = function unbindDragEvents() {
-    document.removeEventListener('mousemove', this.onDragMove);
-    document.removeEventListener('mouseup', this.onDragEnd);
-    document.removeEventListener('touchmove', this.onDragMove);
-    document.removeEventListener('touchend', this.onDragEnd);
-  };
-
-  _proto.render = function render() {
-    var _cx,
-        _this2 = this;
-
-    var _this$props = this.props,
-        closeButton = _this$props.closeButton,
-        children = _this$props.children,
-        autoClose = _this$props.autoClose,
-        pauseOnHover = _this$props.pauseOnHover,
-        onClick = _this$props.onClick,
-        closeOnClick = _this$props.closeOnClick,
-        type = _this$props.type,
-        hideProgressBar = _this$props.hideProgressBar,
-        closeToast = _this$props.closeToast,
-        Transition = _this$props.transition,
-        position = _this$props.position,
-        className = _this$props.className,
-        bodyClassName = _this$props.bodyClassName,
-        progressClassName = _this$props.progressClassName,
-        progressStyle = _this$props.progressStyle,
-        updateId = _this$props.updateId,
-        role = _this$props.role,
-        progress = _this$props.progress,
-        rtl = _this$props.rtl;
-    var toastProps = {
-      className: classnames_default()(RT_NAMESPACE + "__toast", RT_NAMESPACE + "__toast--" + type, (_cx = {}, _cx[RT_NAMESPACE + "__toast--rtl"] = rtl, _cx), className)
-    };
-
-    if (autoClose && pauseOnHover) {
-      toastProps.onMouseEnter = this.pauseToast;
-      toastProps.onMouseLeave = this.playToast;
-    } // prevent toast from closing when user drags the toast
-
-
-    if (closeOnClick) {
-      toastProps.onClick = function (e) {
-        onClick && onClick(e);
-        _this2.flag.canCloseOnClick && closeToast();
-      };
-    }
-
-    var controlledProgress = parseFloat(progress) === progress;
-    return react_default.a.createElement(Transition, {
-      in: this.props.in,
-      appear: true,
-      onExited: this.onExitTransitionEnd,
-      position: position,
-      preventExitTransition: this.state.preventExitTransition
-    }, react_default.a.createElement("div", Object(esm_extends["a" /* default */])({
-      onClick: onClick
-    }, toastProps, {
-      ref: function ref(_ref) {
-        return _this2.ref = _ref;
-      },
-      onMouseDown: this.onDragStart,
-      onTouchStart: this.onDragStart,
-      onMouseUp: this.onDragTransitionEnd,
-      onTouchEnd: this.onDragTransitionEnd
-    }), react_default.a.createElement("div", Object(esm_extends["a" /* default */])({}, this.props.in && {
-      role: role
-    }, {
-      className: classnames_default()(RT_NAMESPACE + "__toast-body", bodyClassName)
-    }), children), closeButton && closeButton, (autoClose || controlledProgress) && react_default.a.createElement(ProgressBar, Object(esm_extends["a" /* default */])({}, updateId && !controlledProgress ? {
-      key: "pb-" + updateId
-    } : {}, {
-      rtl: rtl,
-      delay: autoClose,
-      isRunning: this.state.isRunning,
-      closeToast: closeToast,
-      hide: hideProgressBar,
-      type: type,
-      style: progressStyle,
-      className: progressClassName,
-      controlledProgress: controlledProgress,
-      progress: progress
-    }))));
-  };
-
-  return Toast;
-}(react["Component"]);
-
-react_toastify_Toast.propTypes = {
-  closeButton: prop_types_default.a.oneOfType([prop_types_default.a.node, prop_types_default.a.bool]).isRequired,
-  autoClose: falseOrDelay.isRequired,
-  children: prop_types_default.a.node.isRequired,
-  closeToast: prop_types_default.a.func.isRequired,
-  position: prop_types_default.a.oneOf(objectValues(POSITION)).isRequired,
-  pauseOnHover: prop_types_default.a.bool.isRequired,
-  pauseOnFocusLoss: prop_types_default.a.bool.isRequired,
-  closeOnClick: prop_types_default.a.bool.isRequired,
-  transition: prop_types_default.a.func.isRequired,
-  rtl: prop_types_default.a.bool.isRequired,
-  hideProgressBar: prop_types_default.a.bool.isRequired,
-  draggable: prop_types_default.a.bool.isRequired,
-  draggablePercent: prop_types_default.a.number.isRequired,
-  in: prop_types_default.a.bool,
-  onExited: prop_types_default.a.func,
-  onOpen: prop_types_default.a.func,
-  onClose: prop_types_default.a.func,
-  type: prop_types_default.a.oneOf(objectValues(TYPE)),
-  className: prop_types_default.a.oneOfType([prop_types_default.a.string, prop_types_default.a.object]),
-  bodyClassName: prop_types_default.a.oneOfType([prop_types_default.a.string, prop_types_default.a.object]),
-  progressClassName: prop_types_default.a.oneOfType([prop_types_default.a.string, prop_types_default.a.object]),
-  progressStyle: prop_types_default.a.object,
-  progress: prop_types_default.a.number,
-  updateId: prop_types_default.a.oneOfType([prop_types_default.a.string, prop_types_default.a.number]),
-  ariaLabel: prop_types_default.a.string,
-  containerId: prop_types_default.a.oneOfType([prop_types_default.a.string, prop_types_default.a.number]),
-  role: prop_types_default.a.string
-};
-react_toastify_Toast.defaultProps = {
-  type: TYPE.DEFAULT,
-  in: true,
-  onOpen: NOOP,
-  onClose: NOOP,
-  className: null,
-  bodyClassName: null,
-  progressClassName: null,
-  updateId: null
+  return Object(react["createElement"])(Transition, {
+    "in": props["in"],
+    appear: true,
+    done: deleteToast,
+    position: position,
+    preventExitTransition: preventExitTransition,
+    nodeRef: toastRef
+  }, Object(react["createElement"])("div", Object.assign({
+    id: toastId,
+    onClick: onClick,
+    className: cssClasses
+  }, eventHandlers, {
+    style: style,
+    ref: toastRef
+  }), Object(react["createElement"])("div", Object.assign({}, props["in"] && {
+    role: role
+  }, {
+    className: classnames_default()("Toastify"
+    /* CSS_NAMESPACE */
+    + "__toast-body", bodyClassName),
+    style: bodyStyle
+  }), children), renderCloseButton(closeButton), (autoClose || controlledProgress) && Object(react["createElement"])(ProgressBar, Object.assign({}, updateId && !controlledProgress ? {
+    key: "pb-" + updateId
+  } : {}, {
+    rtl: rtl,
+    delay: autoClose,
+    isRunning: isRunning,
+    isIn: props["in"],
+    closeToast: closeToast,
+    hide: hideProgressBar,
+    type: type,
+    style: progressStyle,
+    className: progressClassName,
+    controlledProgress: controlledProgress,
+    progress: progress
+  }))));
 };
 
-function CloseButton(_ref) {
-  var closeToast = _ref.closeToast,
-      type = _ref.type,
-      ariaLabel = _ref.ariaLabel;
-  return react_default.a.createElement("button", {
-    className: RT_NAMESPACE + "__close-button " + RT_NAMESPACE + "__close-button--" + type,
-    type: "button",
-    onClick: function onClick(e) {
-      e.stopPropagation();
-      closeToast(e);
-    },
-    "aria-label": ariaLabel
-  }, "\u2716\uFE0E");
-}
-
-CloseButton.propTypes = {
-  closeToast: prop_types_default.a.func,
-  arialLabel: prop_types_default.a.string
-};
-CloseButton.defaultProps = {
-  ariaLabel: 'close'
-};
-
-var Bounce = cssTransition({
-  enter: RT_NAMESPACE + "__bounce-enter",
-  exit: RT_NAMESPACE + "__bounce-exit",
+var Bounce = /*#__PURE__*/cssTransition({
+  enter: "Toastify"
+  /* CSS_NAMESPACE */
+  + "__bounce-enter",
+  exit: "Toastify"
+  /* CSS_NAMESPACE */
+  + "__bounce-exit",
   appendPosition: true
 });
-var Slide = cssTransition({
-  enter: RT_NAMESPACE + "__slide-enter",
-  exit: RT_NAMESPACE + "__slide-exit",
+var Slide = /*#__PURE__*/cssTransition({
+  enter: "Toastify"
+  /* CSS_NAMESPACE */
+  + "__slide-enter",
+  exit: "Toastify"
+  /* CSS_NAMESPACE */
+  + "__slide-exit",
   duration: [450, 750],
   appendPosition: true
 });
-var Zoom = cssTransition({
-  enter: RT_NAMESPACE + "__zoom-enter",
-  exit: RT_NAMESPACE + "__zoom-exit"
+var Zoom = /*#__PURE__*/cssTransition({
+  enter: "Toastify"
+  /* CSS_NAMESPACE */
+  + "__zoom-enter",
+  exit: "Toastify"
+  /* CSS_NAMESPACE */
+  + "__zoom-exit"
 });
-var Flip = cssTransition({
-  enter: RT_NAMESPACE + "__flip-enter",
-  exit: RT_NAMESPACE + "__flip-exit"
+var Flip = /*#__PURE__*/cssTransition({
+  enter: "Toastify"
+  /* CSS_NAMESPACE */
+  + "__flip-enter",
+  exit: "Toastify"
+  /* CSS_NAMESPACE */
+  + "__flip-exit"
 });
 
-var react_toastify_ToastContainer =
-/*#__PURE__*/
-function (_Component) {
-  Object(inheritsLoose["a" /* default */])(ToastContainer, _Component);
+var react_toastify_esm_ToastPositioner = function ToastPositioner(_ref) {
+  var children = _ref.children,
+      className = _ref.className,
+      style = _ref.style,
+      rest = _objectWithoutPropertiesLoose(_ref, ["children", "className", "style"]);
 
-  function ToastContainer() {
-    var _this;
-
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    _this = _Component.call.apply(_Component, [this].concat(args)) || this;
-    _this.state = {
-      toast: []
-    };
-    _this.toastKey = 1;
-    _this.collection = {};
-
-    _this.isToastActive = function (id) {
-      return _this.state.toast.indexOf(id) !== -1;
-    };
-
-    return _this;
-  }
-
-  var _proto = ToastContainer.prototype;
-
-  _proto.componentDidMount = function componentDidMount() {
-    var _this2 = this;
-
-    eventManager.cancelEmit(ACTION.WILL_UNMOUNT).on(ACTION.SHOW, function (content, options) {
-      return _this2.ref ? _this2.buildToast(content, options) : null;
-    }).on(ACTION.CLEAR, function (id) {
-      return !_this2.ref ? null : id == null ? _this2.clear() : _this2.removeToast(id);
-    }).emit(ACTION.DID_MOUNT, this);
-  };
-
-  _proto.componentWillUnmount = function componentWillUnmount() {
-    eventManager.emit(ACTION.WILL_UNMOUNT, this);
-  };
-
-  _proto.removeToast = function removeToast(id) {
-    this.setState({
-      toast: this.state.toast.filter(function (v) {
-        return v !== id;
-      })
-    }, this.dispatchChange);
-  };
-
-  _proto.dispatchChange = function dispatchChange() {
-    eventManager.emit(ACTION.ON_CHANGE, this.state.toast.length, this.props.containerId);
-  };
-
-  _proto.makeCloseButton = function makeCloseButton(toastClose, toastId, type) {
-    var _this3 = this;
-
-    var closeButton = this.props.closeButton;
-
-    if (Object(react["isValidElement"])(toastClose) || toastClose === false) {
-      closeButton = toastClose;
-    } else if (toastClose === true) {
-      closeButton = this.props.closeButton && typeof this.props.closeButton !== 'boolean' ? this.props.closeButton : react_default.a.createElement(CloseButton, null);
-    }
-
-    return closeButton === false ? false : Object(react["cloneElement"])(closeButton, {
-      closeToast: function closeToast() {
-        return _this3.removeToast(toastId);
-      },
-      type: type
-    });
-  };
-
-  _proto.getAutoCloseDelay = function getAutoCloseDelay(toastAutoClose) {
-    return toastAutoClose === false || isValidDelay(toastAutoClose) ? toastAutoClose : this.props.autoClose;
-  };
-
-  _proto.canBeRendered = function canBeRendered(content) {
-    return Object(react["isValidElement"])(content) || typeof content === 'string' || typeof content === 'number' || typeof content === 'function';
-  };
-
-  _proto.parseClassName = function parseClassName(prop) {
-    if (typeof prop === 'string') {
-      return prop;
-    } else if (prop !== null && typeof prop === 'object' && 'toString' in prop) {
-      return prop.toString();
-    }
-
-    return null;
-  };
-
-  _proto.belongToContainer = function belongToContainer(_ref) {
-    var containerId = _ref.containerId;
-    return containerId === this.props.containerId;
-  };
-
-  _proto.buildToast = function buildToast(content, _ref2) {
-    var _this4 = this;
-
-    var delay = _ref2.delay,
-        options = Object(objectWithoutPropertiesLoose["a" /* default */])(_ref2, ["delay"]);
-
-    if (!this.canBeRendered(content)) {
-      throw new Error("The element you provided cannot be rendered. You provided an element of type " + typeof content);
-    }
-
-    var toastId = options.toastId,
-        updateId = options.updateId; // Check for multi-container and also for duplicate toastId
-    // Maybe it would be better to extract it
-
-    if (this.props.enableMultiContainer && !this.belongToContainer(options) || this.isToastActive(toastId) && updateId == null) {
-      return;
-    }
-
-    var closeToast = function closeToast() {
-      return _this4.removeToast(toastId);
-    };
-
-    var toastOptions = {
-      id: toastId,
-      // ⚠️ if no options.key, this.toastKey - 1 is assigned
-      key: options.key || this.toastKey++,
-      type: options.type,
-      closeToast: closeToast,
-      updateId: options.updateId,
-      rtl: this.props.rtl,
-      position: options.position || this.props.position,
-      transition: options.transition || this.props.transition,
-      className: this.parseClassName(options.className || this.props.toastClassName),
-      bodyClassName: this.parseClassName(options.bodyClassName || this.props.bodyClassName),
-      onClick: options.onClick || this.props.onClick,
-      closeButton: this.makeCloseButton(options.closeButton, toastId, options.type),
-      pauseOnHover: typeof options.pauseOnHover === 'boolean' ? options.pauseOnHover : this.props.pauseOnHover,
-      pauseOnFocusLoss: typeof options.pauseOnFocusLoss === 'boolean' ? options.pauseOnFocusLoss : this.props.pauseOnFocusLoss,
-      draggable: typeof options.draggable === 'boolean' ? options.draggable : this.props.draggable,
-      draggablePercent: typeof options.draggablePercent === 'number' && !isNaN(options.draggablePercent) ? options.draggablePercent : this.props.draggablePercent,
-      closeOnClick: typeof options.closeOnClick === 'boolean' ? options.closeOnClick : this.props.closeOnClick,
-      progressClassName: this.parseClassName(options.progressClassName || this.props.progressClassName),
-      progressStyle: this.props.progressStyle,
-      autoClose: this.getAutoCloseDelay(options.autoClose),
-      hideProgressBar: typeof options.hideProgressBar === 'boolean' ? options.hideProgressBar : this.props.hideProgressBar,
-      progress: parseFloat(options.progress),
-      role: typeof options.role === 'string' ? options.role : this.props.role
-    };
-    typeof options.onOpen === 'function' && (toastOptions.onOpen = options.onOpen);
-    typeof options.onClose === 'function' && (toastOptions.onClose = options.onClose); // add closeToast function to react component only
-
-    if (Object(react["isValidElement"])(content) && typeof content.type !== 'string' && typeof content.type !== 'number') {
-      content = Object(react["cloneElement"])(content, {
-        closeToast: closeToast
-      });
-    } else if (typeof content === 'function') {
-      content = content({
-        closeToast: closeToast
-      });
-    }
-
-    if (isValidDelay(delay)) {
-      setTimeout(function () {
-        _this4.appendToast(toastOptions, content, options.staleToastId);
-      }, delay);
-    } else {
-      this.appendToast(toastOptions, content, options.staleToastId);
-    }
-  };
-
-  _proto.appendToast = function appendToast(options, content, staleToastId) {
-    var _extends2;
-
-    var id = options.id,
-        updateId = options.updateId;
-    this.collection = Object(esm_extends["a" /* default */])({}, this.collection, (_extends2 = {}, _extends2[id] = {
-      options: options,
-      content: content,
-      position: options.position
-    }, _extends2));
-    this.setState({
-      toast: (updateId ? [].concat(this.state.toast) : [].concat(this.state.toast, [id])).filter(function (id) {
-        return id !== staleToastId;
-      })
-    }, this.dispatchChange);
-  };
-
-  _proto.clear = function clear() {
-    this.setState({
-      toast: []
-    });
-  };
-
-  _proto.renderToast = function renderToast() {
-    var _this5 = this;
-
-    var toastToRender = {};
-    var _this$props = this.props,
-        className = _this$props.className,
-        style = _this$props.style,
-        newestOnTop = _this$props.newestOnTop;
-    var collection = newestOnTop ? Object.keys(this.collection).reverse() : Object.keys(this.collection); // group toast by position
-
-    collection.forEach(function (toastId) {
-      var _this5$collection$toa = _this5.collection[toastId],
-          position = _this5$collection$toa.position,
-          options = _this5$collection$toa.options,
-          content = _this5$collection$toa.content;
-      toastToRender[position] || (toastToRender[position] = []);
-
-      if (_this5.state.toast.indexOf(options.id) !== -1) {
-        toastToRender[position].push(react_default.a.createElement(react_toastify_Toast, Object(esm_extends["a" /* default */])({}, options, {
-          isDocumentHidden: _this5.state.isDocumentHidden,
-          key: "toast-" + options.key
-        }), content));
-      } else {
-        toastToRender[position].push(null);
-        delete _this5.collection[toastId];
-      }
-    });
-    return Object.keys(toastToRender).map(function (position) {
-      var _cx;
-
-      var disablePointer = toastToRender[position].length === 1 && toastToRender[position][0] === null;
-      var props = {
-        className: classnames_default()(RT_NAMESPACE + "__toast-container", RT_NAMESPACE + "__toast-container--" + position, (_cx = {}, _cx[RT_NAMESPACE + "__toast-container--rtl"] = _this5.props.rtl, _cx), _this5.parseClassName(className)),
-        style: disablePointer ? Object(esm_extends["a" /* default */])({}, style, {
-          pointerEvents: 'none'
-        }) : Object(esm_extends["a" /* default */])({}, style)
-      };
-      return react_default.a.createElement(esm_TransitionGroup, Object(esm_extends["a" /* default */])({}, props, {
-        key: "container-" + position
-      }), toastToRender[position]);
-    });
-  };
-
-  _proto.render = function render() {
-    var _this6 = this;
-
-    return react_default.a.createElement("div", {
-      ref: function ref(node) {
-        return _this6.ref = node;
-      },
-      className: "" + RT_NAMESPACE
-    }, this.renderToast());
-  };
-
-  return ToastContainer;
-}(react["Component"]);
-
-react_toastify_ToastContainer.propTypes = {
-  /**
-   * Set toast position
-   */
-  position: prop_types_default.a.oneOf(objectValues(POSITION)),
-
-  /**
-   * Disable or set autoClose delay
-   */
-  autoClose: falseOrDelay,
-
-  /**
-   * Disable or set a custom react element for the close button
-   */
-  closeButton: prop_types_default.a.oneOfType([prop_types_default.a.node, prop_types_default.a.bool]),
-
-  /**
-   * Hide or not progress bar when autoClose is enabled
-   */
-  hideProgressBar: prop_types_default.a.bool,
-
-  /**
-   * Pause toast duration on hover
-   */
-  pauseOnHover: prop_types_default.a.bool,
-
-  /**
-   * Dismiss toast on click
-   */
-  closeOnClick: prop_types_default.a.bool,
-
-  /**
-   * Newest on top
-   */
-  newestOnTop: prop_types_default.a.bool,
-
-  /**
-   * An optional className
-   */
-  className: prop_types_default.a.oneOfType([prop_types_default.a.string, prop_types_default.a.object]),
-
-  /**
-   * An optional style
-   */
-  style: prop_types_default.a.object,
-
-  /**
-   * An optional className for the toast
-   */
-  toastClassName: prop_types_default.a.oneOfType([prop_types_default.a.string, prop_types_default.a.object]),
-
-  /**
-   * An optional className for the toast body
-   */
-  bodyClassName: prop_types_default.a.oneOfType([prop_types_default.a.string, prop_types_default.a.object]),
-
-  /**
-   * An optional className for the toast progress bar
-   */
-  progressClassName: prop_types_default.a.oneOfType([prop_types_default.a.string, prop_types_default.a.object]),
-
-  /**
-   * An optional style for the toast progress bar
-   */
-  progressStyle: prop_types_default.a.object,
-
-  /**
-   * Define enter and exit transition using react-transition-group
-   */
-  transition: prop_types_default.a.func,
-
-  /**
-   * Support rtl display
-   */
-  rtl: prop_types_default.a.bool,
-
-  /**
-   * Allow toast to be draggable
-   */
-  draggable: prop_types_default.a.bool,
-
-  /**
-   * The percentage of the toast's width it takes for a drag to dismiss a toast
-   */
-  draggablePercent: prop_types_default.a.number,
-
-  /**
-   * Pause the toast on focus loss
-   */
-  pauseOnFocusLoss: prop_types_default.a.bool,
-
-  /**
-   * Show the toast only if it includes containerId and it's the same as containerId
-   */
-  enableMultiContainer: prop_types_default.a.bool,
-
-  /**
-   * Set id to handle multiple container
-   */
-  containerId: prop_types_default.a.oneOfType([prop_types_default.a.string, prop_types_default.a.number]),
-
-  /**
-   * Set role attribute for the toast body
-   */
-  role: prop_types_default.a.string,
-
-  /**
-   * Fired when clicking inside toaster
-   */
-  onClick: prop_types_default.a.func
+  // Monkey patch react-transition-group
+  // As exit transition is broken with strict mode
+  delete rest["in"];
+  return Object(react["createElement"])("div", {
+    className: className,
+    style: style
+  }, react["Children"].map(children, function (child) {
+    return Object(react["cloneElement"])(child, rest);
+  }));
 };
-react_toastify_ToastContainer.defaultProps = {
+
+var react_toastify_esm_ToastContainer = function ToastContainer(props) {
+  var _useToastContainer = useToastContainer(props),
+      getToastToRender = _useToastContainer.getToastToRender,
+      containerRef = _useToastContainer.containerRef,
+      isToastActive = _useToastContainer.isToastActive;
+
+  var className = props.className,
+      style = props.style,
+      rtl = props.rtl,
+      containerId = props.containerId;
+  return Object(react["createElement"])("div", {
+    ref: containerRef,
+    className: "Toastify"
+    /* CSS_NAMESPACE */
+    ,
+    id: containerId
+  }, getToastToRender(function (position, toastList) {
+    var _cx;
+
+    var swag = {
+      className: classnames_default()("Toastify"
+      /* CSS_NAMESPACE */
+      + "__toast-container", "Toastify"
+      /* CSS_NAMESPACE */
+      + "__toast-container--" + position, (_cx = {}, _cx["Toastify"
+      /* CSS_NAMESPACE */
+      + "__toast-container--rtl"] = rtl, _cx), parseClassName(className)),
+      style: toastList.length === 0 ? _extends(_extends({}, style), {}, {
+        pointerEvents: 'none'
+      }) : _extends({}, style)
+    };
+    return Object(react["createElement"])(react_toastify_esm_ToastPositioner, Object.assign({}, swag, {
+      key: "container-" + position
+    }), toastList.map(function (_ref) {
+      var content = _ref.content,
+          toastProps = _ref.props;
+      return Object(react["createElement"])(react_toastify_esm_Toast, Object.assign({}, toastProps, {
+        "in": isToastActive(toastProps.toastId),
+        key: "toast-" + toastProps.key,
+        closeButton: toastProps.closeButton === true ? CloseButton : toastProps.closeButton
+      }), content);
+    }));
+  }));
+};
+
+if (false) {}
+
+react_toastify_esm_ToastContainer.defaultProps = {
   position: POSITION.TOP_RIGHT,
   transition: Bounce,
   rtl: false,
   autoClose: 5000,
   hideProgressBar: false,
-  closeButton: react_default.a.createElement(CloseButton, null),
+  closeButton: CloseButton,
   pauseOnHover: true,
   pauseOnFocusLoss: true,
   closeOnClick: true,
   newestOnTop: false,
   draggable: true,
   draggablePercent: 80,
-  className: null,
-  style: null,
-  toastClassName: null,
-  bodyClassName: null,
-  progressClassName: null,
-  progressStyle: null,
   role: 'alert'
 };
 
-var containers = new Map();
-var latestInstance = null;
-var containerDomNode = null;
-var containerConfig = {};
-var queue = [];
+var containers = /*#__PURE__*/new Map();
+var latestInstance;
+var containerDomNode;
+var containerConfig;
+var react_toastify_esm_queue = [];
 var lazy = false;
 /**
  * Check whether any container is currently mounted in the DOM
@@ -3054,8 +2311,7 @@ function isAnyContainerMounted() {
 
 function getContainer(containerId) {
   if (!isAnyContainerMounted()) return null;
-  if (!containerId) return containers.get(latestInstance);
-  return containers.get(containerId);
+  return containers.get(!containerId ? latestInstance : containerId);
 }
 /**
  * Get the toast by id, given it's in the DOM, otherwise returns null
@@ -3066,20 +2322,7 @@ function getToast(toastId, _ref) {
   var containerId = _ref.containerId;
   var container = getContainer(containerId);
   if (!container) return null;
-  var toast = container.collection[toastId];
-  if (typeof toast === 'undefined') return null;
-  return toast;
-}
-/**
- * Merge provided options with the defaults settings and generate the toastId
- */
-
-
-function mergeOptions(options, type) {
-  return Object(esm_extends["a" /* default */])({}, options, {
-    type: type,
-    toastId: getToastId(options)
-  });
+  return container.getToast(toastId);
 }
 /**
  * Generate a random toastId
@@ -3095,7 +2338,7 @@ function generateToastId() {
 
 
 function getToastId(options) {
-  if (options && (typeof options.toastId === 'string' || typeof options.toastId === 'number' && !isNaN(options.toastId))) {
+  if (options && (isStr(options.toastId) || isNum(options.toastId))) {
     return options.toastId;
   }
 
@@ -3109,10 +2352,11 @@ function getToastId(options) {
 
 function dispatchToast(content, options) {
   if (isAnyContainerMounted()) {
-    eventManager.emit(ACTION.SHOW, content, options);
+    eventManager.emit(0
+    /* Show */
+    , content, options);
   } else {
-    queue.push({
-      action: ACTION.SHOW,
+    react_toastify_esm_queue.push({
       content: content,
       options: options
     });
@@ -3121,69 +2365,92 @@ function dispatchToast(content, options) {
       lazy = false;
       containerDomNode = document.createElement('div');
       document.body.appendChild(containerDomNode);
-      Object(react_dom["render"])(react_default.a.createElement(react_toastify_ToastContainer, containerConfig), containerDomNode);
+      Object(react_dom["render"])(Object(react["createElement"])(react_toastify_esm_ToastContainer, Object.assign({}, containerConfig)), containerDomNode);
     }
   }
 
   return options.toastId;
 }
-
-var react_toastify_toast = function toast(content, options) {
-  return dispatchToast(content, mergeOptions(options, options && options.type || TYPE.DEFAULT));
-};
 /**
- * For each available type create a shortcut
+ * Merge provided options with the defaults settings and generate the toastId
  */
 
 
-var _loop = function _loop(t) {
-  if (TYPE[t] !== TYPE.DEFAULT) {
-    react_toastify_toast[TYPE[t].toLowerCase()] = function (content, options) {
-      return dispatchToast(content, mergeOptions(options, options && options.type || TYPE[t]));
-    };
-  }
+function mergeOptions(type, options) {
+  return _extends(_extends({}, options), {}, {
+    type: options && options.type || type,
+    toastId: getToastId(options)
+  });
+}
+
+var react_toastify_esm_toast = function toast(content, options) {
+  return dispatchToast(content, mergeOptions(TYPE.DEFAULT, options));
 };
 
-for (var t in TYPE) {
-  _loop(t);
-}
+react_toastify_esm_toast.success = function (content, options) {
+  return dispatchToast(content, mergeOptions(TYPE.SUCCESS, options));
+};
+
+react_toastify_esm_toast.info = function (content, options) {
+  return dispatchToast(content, mergeOptions(TYPE.INFO, options));
+};
+
+react_toastify_esm_toast.error = function (content, options) {
+  return dispatchToast(content, mergeOptions(TYPE.ERROR, options));
+};
+
+react_toastify_esm_toast.warning = function (content, options) {
+  return dispatchToast(content, mergeOptions(TYPE.WARNING, options));
+};
+
+react_toastify_esm_toast.dark = function (content, options) {
+  return dispatchToast(content, mergeOptions(TYPE.DARK, options));
+};
 /**
  * Maybe I should remove warning in favor of warn, I don't know
  */
 
 
-react_toastify_toast.warn = react_toastify_toast.warning;
+react_toastify_esm_toast.warn = react_toastify_esm_toast.warning;
 /**
  * Remove toast programmaticaly
  */
 
-react_toastify_toast.dismiss = function (id) {
-  if (id === void 0) {
-    id = null;
+react_toastify_esm_toast.dismiss = function (id) {
+  return isAnyContainerMounted() && eventManager.emit(1
+  /* Clear */
+  , id);
+};
+/**
+ * Clear waiting queue when limit is used
+ */
+
+
+react_toastify_esm_toast.clearWaitingQueue = function (params) {
+  if (params === void 0) {
+    params = {};
   }
 
-  return isAnyContainerMounted() && eventManager.emit(ACTION.CLEAR, id);
+  return isAnyContainerMounted() && eventManager.emit(5
+  /* ClearWaitingQueue */
+  , params);
 };
 /**
  * return true if one container is displaying the toast
  */
 
 
-react_toastify_toast.isActive = function (id) {
+react_toastify_esm_toast.isActive = function (id) {
   var isToastActive = false;
-
-  if (containers.size > 0) {
-    containers.forEach(function (container) {
-      if (container.isToastActive(id)) {
-        isToastActive = true;
-      }
-    });
-  }
-
+  containers.forEach(function (container) {
+    if (container.isToastActive && container.isToastActive(id)) {
+      isToastActive = true;
+    }
+  });
   return isToastActive;
 };
 
-react_toastify_toast.update = function (toastId, options) {
+react_toastify_esm_toast.update = function (toastId, options) {
   if (options === void 0) {
     options = {};
   }
@@ -3194,19 +2461,15 @@ react_toastify_toast.update = function (toastId, options) {
     var toast = getToast(toastId, options);
 
     if (toast) {
-      var oldOptions = toast.options,
+      var oldOptions = toast.props,
           oldContent = toast.content;
 
-      var nextOptions = Object(esm_extends["a" /* default */])({}, oldOptions, {}, options, {
-        toastId: options.toastId || toastId
+      var nextOptions = _extends(_extends(_extends({}, oldOptions), options), {}, {
+        toastId: options.toastId || toastId,
+        updateId: generateToastId()
       });
 
-      if (!options.toastId || options.toastId === toastId) {
-        nextOptions.updateId = generateToastId();
-      } else {
-        nextOptions.staleToastId = toastId;
-      }
-
+      if (nextOptions.toastId !== toastId) nextOptions.staleId = toastId;
       var content = typeof nextOptions.render !== 'undefined' ? nextOptions.render : oldContent;
       delete nextOptions.render;
       dispatchToast(content, nextOptions);
@@ -3218,50 +2481,75 @@ react_toastify_toast.update = function (toastId, options) {
  */
 
 
-react_toastify_toast.done = function (id) {
-  react_toastify_toast.update(id, {
+react_toastify_esm_toast.done = function (id) {
+  react_toastify_esm_toast.update(id, {
     progress: 1
   });
 };
 /**
  * Track changes. The callback get the number of toast displayed
+ *
  */
 
 
-react_toastify_toast.onChange = function (callback) {
-  if (typeof callback === 'function') {
-    eventManager.on(ACTION.ON_CHANGE, callback);
+react_toastify_esm_toast.onChange = function (callback) {
+  if (isFn(callback)) {
+    eventManager.on(4
+    /* Change */
+    , callback);
   }
+
+  return function () {
+    isFn(callback) && eventManager.off(4
+    /* Change */
+    , callback);
+  };
 };
 /**
  * Configure the ToastContainer when lazy mounted
  */
 
 
-react_toastify_toast.configure = function (config) {
+react_toastify_esm_toast.configure = function (config) {
+  if (config === void 0) {
+    config = {};
+  }
+
   lazy = true;
   containerConfig = config;
 };
 
-react_toastify_toast.POSITION = POSITION;
-react_toastify_toast.TYPE = TYPE;
+react_toastify_esm_toast.POSITION = POSITION;
+react_toastify_esm_toast.TYPE = TYPE;
 /**
  * Wait until the ToastContainer is mounted to dispatch the toast
  * and attach isActive method
  */
 
-eventManager.on(ACTION.DID_MOUNT, function (containerInstance) {
-  latestInstance = containerInstance.props.containerId || containerInstance;
+eventManager.on(2
+/* DidMount */
+, function (containerInstance) {
+  latestInstance = containerInstance.containerId || containerInstance;
   containers.set(latestInstance, containerInstance);
-  queue.forEach(function (item) {
-    eventManager.emit(item.action, item.content, item.options);
+  react_toastify_esm_queue.forEach(function (item) {
+    eventManager.emit(0
+    /* Show */
+    , item.content, item.options);
   });
-  queue = [];
-}).on(ACTION.WILL_UNMOUNT, function (containerInstance) {
-  if (containerInstance) containers.delete(containerInstance.props.containerId || containerInstance);else containers.clear();
+  react_toastify_esm_queue = [];
+}).on(3
+/* WillUnmount */
+, function (containerInstance) {
+  containers["delete"](containerInstance.containerId || containerInstance);
 
   if (containers.size === 0) {
-    eventManager.off(ACTION.SHOW).off(ACTION.CLEAR);
+    eventManager.off(0
+    /* Show */
+    ).off(1
+    /* Clear */
+    ).off(5
+    /* ClearWaitingQueue */
+    );
   }
 
   if (canUseDom && containerDomNode) {
@@ -3269,12 +2557,473 @@ eventManager.on(ACTION.DID_MOUNT, function (containerInstance) {
   }
 });
 
+/**
+ * `useKeeper` is a helper around `useRef`.
+ *
+ * You don't need to access the `.current`property to get the value
+ * If refresh is set to true. The ref will be updated every render
+ */
 
+function useKeeper(arg, refresh) {
+  if (refresh === void 0) {
+    refresh = false;
+  }
+
+  var ref = Object(react["useRef"])(arg);
+  Object(react["useEffect"])(function () {
+    if (refresh) ref.current = arg;
+  });
+  return ref.current;
+}
+
+function reducer(state, action) {
+  switch (action.type) {
+    case 'ADD':
+      return [].concat(state, [action.toastId]).filter(function (id) {
+        return id !== action.staleId;
+      });
+
+    case 'REMOVE':
+      return hasToastId(action.toastId) ? state.filter(function (id) {
+        return id !== action.toastId;
+      }) : [];
+  }
+}
+
+function useToastContainer(props) {
+  var _useReducer = Object(react["useReducer"])(function (x) {
+    return x + 1;
+  }, 0),
+      forceUpdate = _useReducer[1];
+
+  var _useReducer2 = Object(react["useReducer"])(reducer, []),
+      toast = _useReducer2[0],
+      dispatch = _useReducer2[1];
+
+  var containerRef = Object(react["useRef"])(null);
+  var toastCount = useKeeper(0);
+  var queue = useKeeper([]);
+  var collection = useKeeper({});
+  var instance = useKeeper({
+    toastKey: 1,
+    displayedToast: 0,
+    props: props,
+    containerId: null,
+    isToastActive: isToastActive,
+    getToast: function getToast(id) {
+      return collection[id] || null;
+    }
+  });
+  Object(react["useEffect"])(function () {
+    instance.containerId = props.containerId;
+    eventManager.cancelEmit(3
+    /* WillUnmount */
+    ).on(0
+    /* Show */
+    , buildToast).on(1
+    /* Clear */
+    , function (toastId) {
+      return containerRef.current && removeToast(toastId);
+    }).on(5
+    /* ClearWaitingQueue */
+    , clearWaitingQueue).emit(2
+    /* DidMount */
+    , instance);
+    return function () {
+      return eventManager.emit(3
+      /* WillUnmount */
+      , instance);
+    };
+  }, []);
+  Object(react["useEffect"])(function () {
+    instance.isToastActive = isToastActive;
+    instance.displayedToast = toast.length;
+    eventManager.emit(4
+    /* Change */
+    , toast.length, props.containerId);
+  }, [toast]);
+  Object(react["useEffect"])(function () {
+    instance.props = props;
+  });
+
+  function isToastActive(id) {
+    return toast.indexOf(id) !== -1;
+  }
+
+  function clearWaitingQueue(_ref) {
+    var containerId = _ref.containerId;
+    var _instance$props = instance.props,
+        limit = _instance$props.limit,
+        enableMultiContainer = _instance$props.enableMultiContainer;
+
+    if (limit && (!containerId || instance.containerId === containerId && enableMultiContainer)) {
+      toastCount -= queue.length;
+      queue = [];
+    }
+  }
+
+  function removeToast(toastId) {
+    var queueLen = queue.length;
+    toastCount = hasToastId(toastId) ? toastCount - 1 : toastCount - instance.displayedToast;
+    if (toastCount < 0) toastCount = 0;
+
+    if (queueLen > 0) {
+      var freeSlot = hasToastId(toastId) ? 1 : instance.props.limit;
+
+      if (queueLen === 1 || freeSlot === 1) {
+        instance.displayedToast++;
+        dequeueToast();
+      } else {
+        var toDequeue = freeSlot > queueLen ? queueLen : freeSlot;
+        instance.displayedToast = toDequeue;
+
+        for (var i = 0; i < toDequeue; i++) {
+          dequeueToast();
+        }
+      }
+    }
+
+    dispatch({
+      type: 'REMOVE',
+      toastId: toastId
+    });
+  }
+
+  function dequeueToast() {
+    var _queue$shift = queue.shift(),
+        toastContent = _queue$shift.toastContent,
+        toastProps = _queue$shift.toastProps,
+        staleId = _queue$shift.staleId; // ensure that exit transition has been completed, hence the timeout
+
+
+    setTimeout(function () {
+      appendToast(toastContent, toastProps, staleId);
+    }, 500);
+  }
+  /**
+   * check if a container is attached to the dom
+   * check for multi-container, build only if associated
+   * check for duplicate toastId if no update
+   */
+
+
+  function isNotValid(_ref2) {
+    var containerId = _ref2.containerId,
+        toastId = _ref2.toastId,
+        updateId = _ref2.updateId;
+    return !containerRef.current || instance.props.enableMultiContainer && containerId !== instance.props.containerId || instance.isToastActive(toastId) && updateId == null ? true : false;
+  } // this function and all the function called inside needs to rely on ref(`useKeeper`)
+
+
+  function buildToast(content, _ref3) {
+    var delay = _ref3.delay,
+        staleId = _ref3.staleId,
+        options = _objectWithoutPropertiesLoose(_ref3, ["delay", "staleId"]);
+
+    if (!canBeRendered(content) || isNotValid(options)) return;
+    var toastId = options.toastId,
+        updateId = options.updateId;
+    var props = instance.props,
+        isToastActive = instance.isToastActive;
+
+    var closeToast = function closeToast() {
+      return removeToast(toastId);
+    };
+
+    var isNotAnUpdate = !isToastActive(toastId);
+    if (isNotAnUpdate) toastCount++;
+    var toastProps = {
+      toastId: toastId,
+      updateId: updateId,
+      key: options.key || instance.toastKey++,
+      type: options.type,
+      closeToast: closeToast,
+      closeButton: options.closeButton,
+      rtl: props.rtl,
+      position: options.position || props.position,
+      transition: options.transition || props.transition,
+      className: parseClassName(options.className || props.toastClassName),
+      bodyClassName: parseClassName(options.bodyClassName || props.bodyClassName),
+      style: options.style || props.toastStyle,
+      bodyStyle: options.bodyStyle || props.bodyStyle,
+      onClick: options.onClick || props.onClick,
+      pauseOnHover: isBool(options.pauseOnHover) ? options.pauseOnHover : props.pauseOnHover,
+      pauseOnFocusLoss: isBool(options.pauseOnFocusLoss) ? options.pauseOnFocusLoss : props.pauseOnFocusLoss,
+      draggable: isBool(options.draggable) ? options.draggable : props.draggable,
+      draggablePercent: isNum(options.draggablePercent) ? options.draggablePercent : props.draggablePercent,
+      closeOnClick: isBool(options.closeOnClick) ? options.closeOnClick : props.closeOnClick,
+      progressClassName: parseClassName(options.progressClassName || props.progressClassName),
+      progressStyle: options.progressStyle || props.progressStyle,
+      autoClose: getAutoCloseDelay(options.autoClose, props.autoClose),
+      hideProgressBar: isBool(options.hideProgressBar) ? options.hideProgressBar : props.hideProgressBar,
+      progress: options.progress,
+      role: isStr(options.role) ? options.role : props.role,
+      deleteToast: function deleteToast() {
+        removeFromCollection(toastId);
+      }
+    };
+    if (isFn(options.onOpen)) toastProps.onOpen = options.onOpen;
+    if (isFn(options.onClose)) toastProps.onClose = options.onClose;
+    var closeButton = props.closeButton;
+
+    if (options.closeButton === false || canBeRendered(options.closeButton)) {
+      closeButton = options.closeButton;
+    } else if (options.closeButton === true) {
+      closeButton = canBeRendered(props.closeButton) ? props.closeButton : true;
+    }
+
+    toastProps.closeButton = closeButton;
+    var toastContent = content;
+
+    if (Object(react["isValidElement"])(content) && !isStr(content.type)) {
+      toastContent = Object(react["cloneElement"])(content, {
+        closeToast: closeToast
+      });
+    } else if (isFn(content)) {
+      toastContent = content({
+        closeToast: closeToast
+      });
+    } // not handling limit + delay by design. Waiting for user feedback first
+
+
+    if (props.limit && props.limit > 0 && toastCount > props.limit && isNotAnUpdate) {
+      queue.push({
+        toastContent: toastContent,
+        toastProps: toastProps,
+        staleId: staleId
+      });
+    } else if (isNum(delay) && delay > 0) {
+      setTimeout(function () {
+        appendToast(toastContent, toastProps, staleId);
+      }, delay);
+    } else {
+      appendToast(toastContent, toastProps, staleId);
+    }
+  }
+
+  function appendToast(content, toastProps, staleId) {
+    var toastId = toastProps.toastId;
+    collection[toastId] = {
+      content: content,
+      props: toastProps
+    };
+    dispatch({
+      type: 'ADD',
+      toastId: toastId,
+      staleId: staleId
+    });
+  }
+
+  function removeFromCollection(toastId) {
+    delete collection[toastId];
+    forceUpdate();
+  }
+
+  function getToastToRender(cb) {
+    var toastToRender = {};
+    var toastList = props.newestOnTop ? Object.keys(collection).reverse() : Object.keys(collection);
+
+    for (var i = 0; i < toastList.length; i++) {
+      var _toast = collection[toastList[i]];
+      var position = _toast.props.position;
+      toastToRender[position] || (toastToRender[position] = []);
+      toastToRender[position].push(_toast);
+    }
+
+    return Object.keys(toastToRender).map(function (p) {
+      return cb(p, toastToRender[p]);
+    });
+  }
+
+  return {
+    getToastToRender: getToastToRender,
+    collection: collection,
+    containerRef: containerRef,
+    isToastActive: isToastActive
+  };
+}
+
+function getX(e) {
+  return e.targetTouches && e.targetTouches.length >= 1 ? e.targetTouches[0].clientX : e.clientX;
+}
+
+function getY(e) {
+  return e.targetTouches && e.targetTouches.length >= 1 ? e.targetTouches[0].clientY : e.clientY;
+}
+
+function useToast(props) {
+  var _useState = Object(react["useState"])(true),
+      isRunning = _useState[0],
+      setIsRunning = _useState[1];
+
+  var _useState2 = Object(react["useState"])(false),
+      preventExitTransition = _useState2[0],
+      setPreventExitTransition = _useState2[1];
+
+  var toastRef = Object(react["useRef"])(null);
+  var drag = useKeeper({
+    start: 0,
+    x: 0,
+    y: 0,
+    deltaX: 0,
+    removalDistance: 0,
+    canCloseOnClick: true,
+    canDrag: false,
+    boundingRect: null
+  });
+  var syncProps = useKeeper(props, true);
+  var autoClose = props.autoClose,
+      pauseOnHover = props.pauseOnHover,
+      closeToast = props.closeToast,
+      onClick = props.onClick,
+      closeOnClick = props.closeOnClick;
+  Object(react["useEffect"])(function () {
+    if (isFn(props.onOpen)) props.onOpen(Object(react["isValidElement"])(props.children) && props.children.props);
+    return function () {
+      if (isFn(syncProps.onClose)) syncProps.onClose(Object(react["isValidElement"])(syncProps.children) && syncProps.children.props);
+    };
+  }, []);
+  Object(react["useEffect"])(function () {
+    props.draggable && bindDragEvents();
+    return function () {
+      props.draggable && unbindDragEvents();
+    };
+  }, [props.draggable]);
+  Object(react["useEffect"])(function () {
+    props.pauseOnFocusLoss && bindFocusEvents();
+    return function () {
+      props.pauseOnFocusLoss && unbindFocusEvents();
+    };
+  }, [props.pauseOnFocusLoss]);
+
+  function onDragStart(e) {
+    var toast = toastRef.current;
+    drag.canCloseOnClick = true;
+    drag.canDrag = true;
+    drag.boundingRect = toast.getBoundingClientRect();
+    toast.style.transition = '';
+    drag.start = drag.x = getX(e.nativeEvent);
+    drag.removalDistance = toast.offsetWidth * (props.draggablePercent / 100);
+  }
+
+  function onDragTransitionEnd() {
+    if (drag.boundingRect) {
+      var _drag$boundingRect = drag.boundingRect,
+          top = _drag$boundingRect.top,
+          bottom = _drag$boundingRect.bottom,
+          left = _drag$boundingRect.left,
+          right = _drag$boundingRect.right;
+
+      if (props.pauseOnHover && drag.x >= left && drag.x <= right && drag.y >= top && drag.y <= bottom) {
+        pauseToast();
+      } else {
+        playToast();
+      }
+    }
+  }
+
+  function playToast() {
+    setIsRunning(true);
+  }
+
+  function pauseToast() {
+    setIsRunning(false);
+  }
+
+  function bindFocusEvents() {
+    window.addEventListener('focus', playToast);
+    window.addEventListener('blur', pauseToast);
+  }
+
+  function unbindFocusEvents() {
+    window.removeEventListener('focus', playToast);
+    window.removeEventListener('blur', pauseToast);
+  }
+
+  function bindDragEvents() {
+    document.addEventListener('mousemove', onDragMove);
+    document.addEventListener('mouseup', onDragEnd);
+    document.addEventListener('touchmove', onDragMove);
+    document.addEventListener('touchend', onDragEnd);
+  }
+
+  function unbindDragEvents() {
+    document.removeEventListener('mousemove', onDragMove);
+    document.removeEventListener('mouseup', onDragEnd);
+    document.removeEventListener('touchmove', onDragMove);
+    document.removeEventListener('touchend', onDragEnd);
+  }
+
+  function onDragMove(e) {
+    var toast = toastRef.current;
+
+    if (drag.canDrag) {
+      if (isRunning) pauseToast();
+      drag.x = getX(e);
+      drag.deltaX = drag.x - drag.start;
+      drag.y = getY(e); // prevent false positif during a toast click
+
+      if (drag.start !== drag.x) drag.canCloseOnClick = false;
+      toast.style.transform = "translateX(" + drag.deltaX + "px)";
+      toast.style.opacity = "" + (1 - Math.abs(drag.deltaX / drag.removalDistance));
+    }
+  }
+
+  function onDragEnd() {
+    var toast = toastRef.current;
+
+    if (drag.canDrag) {
+      drag.canDrag = false;
+
+      if (Math.abs(drag.deltaX) > drag.removalDistance) {
+        setPreventExitTransition(true);
+        props.closeToast();
+        return;
+      }
+
+      toast.style.transition = 'transform 0.2s, opacity 0.2s';
+      toast.style.transform = 'translateX(0)';
+      toast.style.opacity = '1';
+    }
+  }
+
+  var eventHandlers = {
+    onMouseDown: onDragStart,
+    onTouchStart: onDragStart,
+    onMouseUp: onDragTransitionEnd,
+    onTouchEnd: onDragTransitionEnd
+  };
+
+  if (autoClose && pauseOnHover) {
+    eventHandlers.onMouseEnter = pauseToast;
+    eventHandlers.onMouseLeave = playToast;
+  } // prevent toast from closing when user drags the toast
+
+
+  if (closeOnClick) {
+    eventHandlers.onClick = function (e) {
+      onClick && onClick(e);
+      drag.canCloseOnClick && closeToast();
+    };
+  }
+
+  return {
+    playToast: playToast,
+    pauseToast: pauseToast,
+    isRunning: isRunning,
+    preventExitTransition: preventExitTransition,
+    toastRef: toastRef,
+    eventHandlers: eventHandlers
+  };
+}
+
+
+//# sourceMappingURL=react-toastify.esm.js.map
 
 
 /***/ }),
 
-/***/ 45:
+/***/ 33:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3303,19 +3052,19 @@ if (true) {
   // DCE check should happen before ReactDOM bundle executes so that
   // DevTools can report bad minification during injection.
   checkDCE();
-  module.exports = __webpack_require__(164);
+  module.exports = __webpack_require__(163);
 } else {}
 
 
 /***/ }),
 
-/***/ 46:
+/***/ 43:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _require = __webpack_require__(171),
+var _require = __webpack_require__(170),
     CopyToClipboard = _require.CopyToClipboard;
 
 CopyToClipboard.CopyToClipboard = CopyToClipboard;
@@ -3323,7 +3072,7 @@ module.exports = CopyToClipboard;
 
 /***/ }),
 
-/***/ 72:
+/***/ 69:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3333,21 +3082,21 @@ __webpack_require__.d(__webpack_exports__, "a", function() { return /* reexport 
 
 // UNUSED EXPORTS: IMaskMixin
 
-// EXTERNAL MODULE: ./node_modules/imask/esm/index.js + 6 modules
-var esm = __webpack_require__(209);
+// EXTERNAL MODULE: ./node_modules/imask/esm/index.js + 5 modules
+var esm = __webpack_require__(208);
 
 // EXTERNAL MODULE: ./node_modules/react/index.js
 var react = __webpack_require__(1);
 var react_default = /*#__PURE__*/__webpack_require__.n(react);
 
 // EXTERNAL MODULE: ./node_modules/prop-types/index.js
-var prop_types = __webpack_require__(2);
+var prop_types = __webpack_require__(4);
 var prop_types_default = /*#__PURE__*/__webpack_require__.n(prop_types);
 
 // EXTERNAL MODULE: ./node_modules/imask/esm/imask.js
-var imask = __webpack_require__(27);
+var imask = __webpack_require__(24);
 
-// CONCATENATED MODULE: ./node_modules/react-imask/esm/mixin-6598536f.js
+// CONCATENATED MODULE: ./node_modules/react-imask/esm/mixin-c3942261.js
 
 
 
@@ -3610,12 +3359,24 @@ function IMaskMixin(ComposedComponent) {
     }, {
       key: "_onAccept",
       value: function _onAccept() {
-        if (this.props.onAccept) this.props.onAccept(this.maskValue, this.maskRef);
+        var _this$props;
+
+        for (var _len2 = arguments.length, args = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
+          args[_key2] = arguments[_key2];
+        }
+
+        if (this.props.onAccept) (_this$props = this.props).onAccept.apply(_this$props, [this.maskValue, this.maskRef].concat(args));
       }
     }, {
       key: "_onComplete",
       value: function _onComplete() {
-        if (this.props.onComplete) this.props.onComplete(this.maskValue, this.maskRef);
+        var _this$props2;
+
+        for (var _len3 = arguments.length, args = new Array(_len3), _key3 = 0; _key3 < _len3; _key3++) {
+          args[_key3] = arguments[_key3];
+        }
+
+        if (this.props.onComplete) (_this$props2 = this.props).onComplete.apply(_this$props2, [this.maskValue, this.maskRef].concat(args));
       }
     }, {
       key: "maskValue",
@@ -3672,4 +3433,4 @@ var IMaskInput = IMaskMixin(input_InputComponent);
 /***/ })
 
 }]);
-//# sourceMappingURL=react~index.222e5a1dbf076150b43c.bundle.js.map
+//# sourceMappingURL=react~index.5b64252507013c461f4b.bundle.js.map
