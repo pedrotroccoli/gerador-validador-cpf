@@ -689,17 +689,13 @@ var CPF_generate = function generate(_temp) {
  * @author Tiago Porto
  *
  * @function Validate
- * @param  {(string|number)} value  CPF number
+ * @param  {string} value  CPF number
  *
  * @returns {boolean}                true = valid || false = invalid
  */
 
 var CPF_validate = function validate(value) {
-  if (typeof value !== 'string' && typeof value !== 'number') {
-    return false;
-  }
-
-  if (typeof value === 'number' && isNaN(value)) {
+  if (typeof value !== 'string') {
     return false;
   }
 
@@ -1016,4 +1012,4 @@ module.exports = JSON.parse("{\"app\":{\"title\":\"app.title\",\"description\":\
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.b6547f7c283e50487764.js.map
+//# sourceMappingURL=index.4b7273f13b4365275750.js.map
