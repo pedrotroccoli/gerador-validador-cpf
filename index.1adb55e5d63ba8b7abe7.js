@@ -313,8 +313,8 @@ var GithubCorner_default = /*#__PURE__*/__webpack_require__.n(GithubCorner);
 var lib = __webpack_require__(43);
 var lib_default = /*#__PURE__*/__webpack_require__.n(lib);
 
-// EXTERNAL MODULE: ./src/site/locales/resources.json
-var resources = __webpack_require__(6);
+// EXTERNAL MODULE: ./src/site/locales/en/app.json
+var app = __webpack_require__(6);
 
 // EXTERNAL MODULE: ./node_modules/react-i18next/dist/es/useTranslation.js
 var useTranslation = __webpack_require__(211);
@@ -359,7 +359,7 @@ var Donate_Donate = function Donate() {
   };
 
   var handleCopy = function handleCopy() {
-    Object(react_toastify_esm["b" /* toast */])(t(resources.messages.walletCopied));
+    Object(react_toastify_esm["b" /* toast */])(t(app.messages.walletCopied));
   };
 
   var toggleCodeVisibility = function toggleCodeVisibility() {
@@ -383,8 +383,8 @@ var Donate_Donate = function Donate() {
       category: 'Star',
       type: 'generate-validade-cpf'
     }),
-    "aria-label": t(resources.donate.leaveStar),
-    "data-footnote": t(resources.donate.leaveStar),
+    "aria-label": t(app.donate.leaveStar),
+    "data-footnote": t(app.donate.leaveStar),
     href: "https://github.com/tiagoporto/gerador-validador-cpf/stargazers",
     target: "_blank",
     rel: "noopener noreferrer"
@@ -401,8 +401,8 @@ var Donate_Donate = function Donate() {
       category: 'Donate',
       type: 'Paypal generate-validade-cpf'
     }),
-    "aria-label": t(resources.donate.contributePaypal),
-    "data-footnote": t(resources.donate.contributePaypal),
+    "aria-label": t(app.donate.contributePaypal),
+    "data-footnote": t(app.donate.contributePaypal),
     href: "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=YTDUQ8RZ2G4Q8&lc=BR&item_name=tiagoporto&item_number=geradorcpf&currency_code=BRL&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted",
     target: "_blank",
     rel: "noopener noreferrer"
@@ -415,8 +415,8 @@ var Donate_Donate = function Donate() {
       category: 'Donate',
       type: 'Bitcoin generate-validate-cpf'
     }),
-    "aria-label": t(resources.donate.contributeBitcoin),
-    "data-footnote": t(resources.donate.contributeBitcoin)
+    "aria-label": t(app.donate.contributeBitcoin),
+    "data-footnote": t(app.donate.contributeBitcoin)
   }, "Bitcoin")))), /*#__PURE__*/react_default.a.createElement("div", {
     className: Code_module.codeBox,
     style: {
@@ -526,7 +526,7 @@ var Header_Header = function Header() {
       t = _useTranslation.t;
 
   var handleCopy = function handleCopy() {
-    Object(react_toastify_esm["b" /* toast */])(t(resources.messages.copied));
+    Object(react_toastify_esm["b" /* toast */])(t(app.messages.copied));
   };
 
   return /*#__PURE__*/react_default.a.createElement("header", {
@@ -536,10 +536,10 @@ var Header_Header = function Header() {
     size: 80,
     bannerColor: "#fff",
     octoColor: "#155078",
-    ariaLabel: t(resources.header.projectPageGithub)
+    ariaLabel: t(app.header.projectPageGithub)
   }), /*#__PURE__*/react_default.a.createElement("h1", {
     className: Header_module.panelTitle
-  }, /*#__PURE__*/react_default.a.createElement("span", null, "Gerador e"), " validador de CPF"), /*#__PURE__*/react_default.a.createElement("p", null, t(resources.header.libInfo)), /*#__PURE__*/react_default.a.createElement(lib_default.a, {
+  }, /*#__PURE__*/react_default.a.createElement("span", null, "Gerador e"), " validador de CPF"), /*#__PURE__*/react_default.a.createElement("p", null, t(app.header.libInfo)), /*#__PURE__*/react_default.a.createElement(lib_default.a, {
     text: "npm install gerador-validador-cpf --save",
     onCopy: handleCopy
   }, /*#__PURE__*/react_default.a.createElement("pre", {
@@ -735,7 +735,7 @@ var GenerateSection_GenerateSection = function GenerateSection() {
       t = _useTranslation.t;
 
   var handleCopy = function handleCopy() {
-    Object(react_toastify_esm["b" /* toast */])(t(resources.messages.cpfCopied));
+    Object(react_toastify_esm["b" /* toast */])(t(app.messages.cpfCopied));
   };
 
   var generateNewCPF = function generateNewCPF(type) {
@@ -757,11 +757,11 @@ var GenerateSection_GenerateSection = function GenerateSection() {
     className: GenerateSection_module.generateSection
   }, /*#__PURE__*/react_default.a.createElement("div", {
     className: GenerateSection_module.center
-  }, /*#__PURE__*/react_default.a.createElement("h2", null, t(resources.generate.title)), /*#__PURE__*/react_default.a.createElement(lib_default.a, {
+  }, /*#__PURE__*/react_default.a.createElement("h2", null, t(app.generate.title)), /*#__PURE__*/react_default.a.createElement(lib_default.a, {
     text: cpf,
     onCopy: handleCopy
   }, /*#__PURE__*/react_default.a.createElement(esm["a" /* IMaskInput */], {
-    "aria-label": t(resources.generate.cpfGenerated),
+    "aria-label": t(app.generate.cpfGenerated),
     value: cpf,
     className: GenerateSection_module.input,
     type: "text",
@@ -771,7 +771,7 @@ var GenerateSection_GenerateSection = function GenerateSection() {
     onClick: generateNewCPF('click'),
     className: GenerateSection_module.generateButton,
     type: "button"
-  }, t(resources.generate.title))));
+  }, t(app.generate.title))));
 };
 // CONCATENATED MODULE: ./src/site/components/GenerateSection/index.ts
 
@@ -829,12 +829,12 @@ var ValidateSection_ValidateSection = function ValidateSection() {
       setValidation(Object.assign(Object.assign({}, validation), {}, {
         cpf: tempCpf,
         isValid: _isValid,
-        message: _isValid ? t(resources.messages.validCPF) : t(resources.messages.invalidCPF)
+        message: _isValid ? t(app.messages.validCPF) : t(app.messages.invalidCPF)
       }));
     } else {
       setValidation(Object.assign(Object.assign({}, validation), {}, {
         cpf: '',
-        message: tempCpf ? t(resources.messages.incomplete) : ''
+        message: tempCpf ? t(app.messages.incomplete) : ''
       }));
     }
   }, [tempCpf]);
@@ -842,10 +842,10 @@ var ValidateSection_ValidateSection = function ValidateSection() {
     className: ValidateSection_module.validateSection
   }, /*#__PURE__*/react_default.a.createElement("div", {
     className: ValidateSection_module.center
-  }, /*#__PURE__*/react_default.a.createElement("h2", null, t(resources.validate.title)), /*#__PURE__*/react_default.a.createElement(esm["a" /* IMaskInput */], {
-    "aria-label": t(resources.validate.insertCPF),
+  }, /*#__PURE__*/react_default.a.createElement("h2", null, t(app.validate.title)), /*#__PURE__*/react_default.a.createElement(esm["a" /* IMaskInput */], {
+    "aria-label": t(app.validate.insertCPF),
     value: tempCpf,
-    placeholder: t(resources.validate.insertCPF),
+    placeholder: t(app.validate.insertCPF),
     onAccept: handleChangeCPF,
     className: ValidateSection_module.validateSectionInput,
     type: "text",
@@ -888,29 +888,29 @@ var InfoSection_InfoSection = function InfoSection() {
     className: InfoSection_module.infoSection
   }, /*#__PURE__*/react_default.a.createElement("div", {
     className: InfoSection_module.center
-  }, /*#__PURE__*/react_default.a.createElement("p", null, t(resources.info.disclaimer)), /*#__PURE__*/react_default.a.createElement(Trans["a" /* Trans */], {
-    i18nKey: resources.info.algorithm,
+  }, /*#__PURE__*/react_default.a.createElement("p", null, t(app.info.disclaimer)), /*#__PURE__*/react_default.a.createElement(Trans["a" /* Trans */], {
+    i18nKey: app.info.algorithm,
     components: [/*#__PURE__*/react_default.a.createElement("a", {
       key: "link",
       href: "http://www.geradorcpf.com/algoritmo_do_cpf.htm"
     })]
   }), /*#__PURE__*/react_default.a.createElement("p", null, /*#__PURE__*/react_default.a.createElement(Trans["a" /* Trans */], {
-    i18nKey: resources.info.disclaimerValidCPF,
+    i18nKey: app.info.disclaimerValidCPF,
     components: [/*#__PURE__*/react_default.a.createElement("a", {
       key: "link",
       href: "http://www.receita.fazenda.gov.br/aplicacoes/atcta/cpf/consultapublica.asp"
     })]
-  })), /*#__PURE__*/react_default.a.createElement("p", null, t(resources.info.cpfByState)), /*#__PURE__*/react_default.a.createElement("blockquote", null, /*#__PURE__*/react_default.a.createElement(Trans["a" /* Trans */], {
-    i18nKey: resources.info.example,
+  })), /*#__PURE__*/react_default.a.createElement("p", null, t(app.info.cpfByState)), /*#__PURE__*/react_default.a.createElement("blockquote", null, /*#__PURE__*/react_default.a.createElement(Trans["a" /* Trans */], {
+    i18nKey: app.info.example,
     components: [/*#__PURE__*/react_default.a.createElement("strong", {
       key: "strong"
     })]
-  })), /*#__PURE__*/react_default.a.createElement("p", null, t(resources.info.codeByState)), /*#__PURE__*/react_default.a.createElement("ol", {
+  })), /*#__PURE__*/react_default.a.createElement("p", null, t(app.info.codeByState)), /*#__PURE__*/react_default.a.createElement("ol", {
     className: InfoSection_module.list
   }, Array.from(Array(10).keys()).map(function (i) {
     return /*#__PURE__*/react_default.a.createElement("li", {
       key: "item" + i
-    }, t(resources.info["stateCode" + (i + 1)]));
+    }, t(app.info["stateCode" + (i + 1)]));
   }))));
 };
 // CONCATENATED MODULE: ./src/site/components/InfoSection/index.ts
@@ -953,16 +953,17 @@ var App_App = function App() {
 var context = __webpack_require__(25);
 
 // EXTERNAL MODULE: ./src/site/locales/en/app.json
-var app = __webpack_require__(134);
+var en_app = __webpack_require__(134);
 
 // EXTERNAL MODULE: ./src/site/locales/br/app.json
 var br_app = __webpack_require__(135);
 
 // CONCATENATED MODULE: ./src/site/locales/index.ts
+/* eslint-disable import/no-webpack-loader-syntax */
 
 
 var i18nResources = {
-  en: app,
+  en: en_app,
   br: br_app
 };
 // CONCATENATED MODULE: ./src/site/index.tsx
@@ -1012,4 +1013,4 @@ module.exports = JSON.parse("{\"app\":{\"title\":\"app.title\",\"description\":\
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.4face62b7bb3c236d9dc.js.map
+//# sourceMappingURL=index.1adb55e5d63ba8b7abe7.js.map
