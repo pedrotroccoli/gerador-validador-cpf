@@ -621,10 +621,8 @@ var generateFirstDigits = function generateFirstDigits() {
 };
 var hasCPFLength = function hasCPFLength(cpf) {
   if (cpf.length > 11) {
-    console.error('CPF number has more than 11 digits.');
     return false;
   } else if (cpf.length < 11) {
-    console.error('CPF number has fewer than 11 digits.');
     return false;
   }
 
@@ -1013,4 +1011,4 @@ module.exports = JSON.parse("{\"app\":{\"title\":\"app.title\",\"description\":\
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.1adb55e5d63ba8b7abe7.js.map
+//# sourceMappingURL=index.1b2d3ea25635af33e28e.js.map
