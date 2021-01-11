@@ -1,62 +1,66 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[0],{
+(self["webpackChunkgerador_validador_cpf"] = self["webpackChunkgerador_validador_cpf"] || []).push([[516],{
 
-/***/ 214:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ 1516:
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
-__webpack_require__.d(__webpack_exports__, "initialize", function() { return /* binding */ esm_initialize; });
-__webpack_require__.d(__webpack_exports__, "ga", function() { return /* binding */ esm_ga; });
-__webpack_require__.d(__webpack_exports__, "set", function() { return /* binding */ esm_set; });
-__webpack_require__.d(__webpack_exports__, "send", function() { return /* binding */ esm_send; });
-__webpack_require__.d(__webpack_exports__, "pageview", function() { return /* binding */ esm_pageview; });
-__webpack_require__.d(__webpack_exports__, "modalview", function() { return /* binding */ esm_modalview; });
-__webpack_require__.d(__webpack_exports__, "timing", function() { return /* binding */ esm_timing; });
-__webpack_require__.d(__webpack_exports__, "event", function() { return /* binding */ esm_event; });
-__webpack_require__.d(__webpack_exports__, "exception", function() { return /* binding */ esm_exception; });
-__webpack_require__.d(__webpack_exports__, "plugin", function() { return /* binding */ esm_plugin; });
-__webpack_require__.d(__webpack_exports__, "outboundLink", function() { return /* binding */ esm_outboundLink; });
-__webpack_require__.d(__webpack_exports__, "testModeAPI", function() { return /* binding */ esm_testModeAPI; });
-__webpack_require__.d(__webpack_exports__, "OutboundLink", function() { return /* binding */ esm_OutboundLink; });
+__webpack_require__.d(__webpack_exports__, {
+  "OutboundLink": function() { return /* binding */ esm_OutboundLink; },
+  "addTrackers": function() { return /* binding */ esm_addTrackers; },
+  "default": function() { return /* binding */ esm; },
+  "event": function() { return /* binding */ esm_event; },
+  "exception": function() { return /* binding */ esm_exception; },
+  "ga": function() { return /* binding */ esm_ga; },
+  "initialize": function() { return /* binding */ esm_initialize; },
+  "modalview": function() { return /* binding */ esm_modalview; },
+  "outboundLink": function() { return /* binding */ esm_outboundLink; },
+  "pageview": function() { return /* binding */ esm_pageview; },
+  "plugin": function() { return /* binding */ esm_plugin; },
+  "send": function() { return /* binding */ esm_send; },
+  "set": function() { return /* binding */ esm_set; },
+  "testModeAPI": function() { return /* binding */ esm_testModeAPI; },
+  "timing": function() { return /* binding */ esm_timing; }
+});
 
 // NAMESPACE OBJECT: ./node_modules/react-ga/dist/esm/core.js
 var core_namespaceObject = {};
 __webpack_require__.r(core_namespaceObject);
-__webpack_require__.d(core_namespaceObject, "initialize", function() { return initialize; });
-__webpack_require__.d(core_namespaceObject, "ga", function() { return ga; });
-__webpack_require__.d(core_namespaceObject, "set", function() { return set; });
-__webpack_require__.d(core_namespaceObject, "send", function() { return send; });
-__webpack_require__.d(core_namespaceObject, "pageview", function() { return pageview; });
-__webpack_require__.d(core_namespaceObject, "modalview", function() { return modalview; });
-__webpack_require__.d(core_namespaceObject, "timing", function() { return timing; });
-__webpack_require__.d(core_namespaceObject, "event", function() { return core_event; });
-__webpack_require__.d(core_namespaceObject, "exception", function() { return exception; });
-__webpack_require__.d(core_namespaceObject, "plugin", function() { return core_plugin; });
-__webpack_require__.d(core_namespaceObject, "outboundLink", function() { return outboundLink; });
-__webpack_require__.d(core_namespaceObject, "testModeAPI", function() { return core_testModeAPI; });
-__webpack_require__.d(core_namespaceObject, "default", function() { return core; });
+__webpack_require__.d(core_namespaceObject, {
+  "addTrackers": function() { return addTrackers; },
+  "default": function() { return core; },
+  "event": function() { return core_event; },
+  "exception": function() { return exception; },
+  "ga": function() { return ga; },
+  "initialize": function() { return initialize; },
+  "modalview": function() { return modalview; },
+  "outboundLink": function() { return outboundLink; },
+  "pageview": function() { return pageview; },
+  "plugin": function() { return core_plugin; },
+  "send": function() { return send; },
+  "set": function() { return set; },
+  "testModeAPI": function() { return core_testModeAPI; },
+  "timing": function() { return timing; }
+});
 
 // EXTERNAL MODULE: ./node_modules/react/index.js
-var react = __webpack_require__(1);
-var react_default = /*#__PURE__*/__webpack_require__.n(react);
-
+var react = __webpack_require__(7294);
 // EXTERNAL MODULE: ./node_modules/prop-types/index.js
-var prop_types = __webpack_require__(4);
+var prop_types = __webpack_require__(5697);
 var prop_types_default = /*#__PURE__*/__webpack_require__.n(prop_types);
-
-// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/utils/console/warn.js
+;// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/utils/console/warn.js
 function warn(s) {
   console.warn('[react-ga]', s);
 }
-// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/components/OutboundLink.js
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+;// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/components/OutboundLink.js
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -68,15 +72,19 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -86,14 +94,12 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 var NEWTAB = '_blank';
 var MIDDLECLICK = 1;
 
-var OutboundLink_OutboundLink =
-/*#__PURE__*/
-function (_Component) {
+var OutboundLink = /*#__PURE__*/function (_Component) {
   _inherits(OutboundLink, _Component);
 
-  function OutboundLink() {
-    var _getPrototypeOf2;
+  var _super = _createSuper(OutboundLink);
 
+  function OutboundLink() {
     var _this;
 
     _classCallCheck(this, OutboundLink);
@@ -102,7 +108,7 @@ function (_Component) {
       args[_key] = arguments[_key];
     }
 
-    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(OutboundLink)).call.apply(_getPrototypeOf2, [this].concat(args)));
+    _this = _super.call.apply(_super, [this].concat(args));
 
     _defineProperty(_assertThisInitialized(_this), "handleClick", function (event) {
       var _this$props = _this.props,
@@ -139,67 +145,80 @@ function (_Component) {
     value: function render() {
       var _this$props2 = this.props,
           href = _this$props2.to,
-          oldProps = _objectWithoutProperties(_this$props2, ["to"]);
+          target = _this$props2.target,
+          oldProps = _objectWithoutProperties(_this$props2, ["to", "target"]);
 
-      var props = _objectSpread({}, oldProps, {
+      var props = _objectSpread(_objectSpread({}, oldProps), {}, {
+        target: target,
         href: href,
         onClick: this.handleClick
       });
 
-      if (this.props.target === NEWTAB) {
-        props.rel = 'noopener noreferrer';
+      if (target === NEWTAB) {
+        props.rel = "".concat(props.rel ? props.rel : '', " noopener noreferrer").trim();
       }
 
       delete props.eventLabel;
       delete props.trackerNames;
-      return react_default.a.createElement('a', props);
+      return /*#__PURE__*/react.createElement('a', props);
     }
   }]);
 
   return OutboundLink;
-}(react["Component"]);
+}(react.Component);
 
-_defineProperty(OutboundLink_OutboundLink, "trackLink", function () {
+_defineProperty(OutboundLink, "trackLink", function () {
   warn('ga tracking not enabled');
 });
 
-_defineProperty(OutboundLink_OutboundLink, "propTypes", {
-  eventLabel: prop_types_default.a.string.isRequired,
-  target: prop_types_default.a.string,
-  to: prop_types_default.a.string,
-  onClick: prop_types_default.a.func,
-  trackerNames: prop_types_default.a.arrayOf(prop_types_default.a.string)
-});
 
-_defineProperty(OutboundLink_OutboundLink, "defaultProps", {
+OutboundLink.propTypes = {
+  eventLabel: (prop_types_default()).string.isRequired,
+  target: (prop_types_default()).string,
+  to: (prop_types_default()).string,
+  onClick: (prop_types_default()).func,
+  trackerNames: prop_types_default().arrayOf((prop_types_default()).string)
+};
+OutboundLink.defaultProps = {
   target: null,
   to: null,
   onClick: null,
   trackerNames: null
-});
-
-
-// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/utils/mightBeEmail.js
+};
+;// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/utils/mightBeEmail.js
 // See if s could be an email address. We don't want to send personal data like email.
 // https://support.google.com/analytics/answer/2795983?hl=en
 function mightBeEmail(s) {
   // There's no point trying to validate rfc822 fully, just look for ...@...
   return typeof s === 'string' && s.indexOf('@') !== -1;
 }
-// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/utils/trim.js
+;// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/utils/redactEmail.js
+
+
+var redacted = 'REDACTED (Potential Email Address)';
+function redactEmail(string) {
+  if (mightBeEmail(string)) {
+    warn('This arg looks like an email address, redacting.');
+    return redacted;
+  }
+
+  return string;
+}
+;// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/utils/trim.js
 // GA strings need to have leading/trailing whitespace trimmed, and not all
 // browsers have String.prototoype.trim().
 function trim(s) {
-  return s.replace(/^\s+|\s+$/g, '');
+  return s && s.toString().replace(/^\s+|\s+$/g, '');
 }
-// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/utils/toTitleCase.js
+;// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/utils/toTitleCase.js
 /**
  * To Title Case 2.1 - http://individed.com/code/to-title-case/
  * Copyright 2008-2013 David Gouch. Licensed under the MIT License.
  * https://github.com/gouch/to-title-case
  */
 
-var smallWords = /^(a|an|and|as|at|but|by|en|for|if|in|nor|of|on|or|per|the|to|vs?\.?|via)$/i;
+var smallWords = /^(a|an|and|as|at|but|by|en|for|if|in|nor|of|on|or|per|the|to|vs?\.?|via)$/i; // test
+
 function toTitleCase(string) {
   return trim(string).replace(/[A-Za-z0-9\u00C0-\u00FF]+[^\s-]*/g, function (match, index, title) {
     if (index > 0 && index + match.length !== title.length && match.search(smallWords) > -1 && title.charAt(index - 2) !== ':' && (title.charAt(index + match.length) !== '-' || title.charAt(index - 1) === '-') && title.charAt(index - 1).search(/[^\s-]/) < 0) {
@@ -213,24 +232,27 @@ function toTitleCase(string) {
     return match.charAt(0).toUpperCase() + match.substr(1);
   });
 }
-// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/utils/format.js
+;// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/utils/format.js
 
 
+function format() {
+  var s = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+  var titleCase = arguments.length > 1 ? arguments[1] : undefined;
+  var redactingEmail = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
 
-var redacted = 'REDACTED (Potential Email Address)';
-function format(s, titleCase) {
-  if (mightBeEmail(s)) {
-    warn('This arg looks like an email address, redacting.');
-    return redacted;
-  }
+  var _str = s || '';
 
   if (titleCase) {
-    return toTitleCase(s);
+    _str = toTitleCase(s);
   }
 
-  return s;
+  if (redactingEmail) {
+    _str = redactEmail(_str);
+  }
+
+  return _str;
 }
-// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/utils/removeLeadingSlash.js
+;// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/utils/removeLeadingSlash.js
 function removeLeadingSlash(string) {
   if (string.substring(0, 1) === '/') {
     return string.substring(1);
@@ -238,18 +260,22 @@ function removeLeadingSlash(string) {
 
   return string;
 }
-// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/utils/loadGA.js
-/* harmony default export */ var loadGA = (function (options) {
+;// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/utils/loadGA.js
+var isLoaded = false;
+/* harmony default export */ function loadGA(options) {
+  if (isLoaded) return;
+  isLoaded = true;
   var gaAddress = 'https://www.google-analytics.com/analytics.js';
 
   if (options && options.gaAddress) {
     gaAddress = options.gaAddress;
   } else if (options && options.debug) {
     gaAddress = 'https://www.google-analytics.com/analytics_debug.js';
-  } // https://developers.google.com/analytics/devguides/collection/analyticsjs/
+  }
+
+  var onerror = options && options.onerror; // https://developers.google.com/analytics/devguides/collection/analyticsjs/
 
   /* eslint-disable */
-
 
   (function (i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
@@ -259,16 +285,17 @@ function removeLeadingSlash(string) {
     a = s.createElement(o), m = s.getElementsByTagName(o)[0];
     a.async = 1;
     a.src = g;
+    a.onerror = onerror;
     m.parentNode.insertBefore(a, m);
   })(window, document, 'script', gaAddress, 'ga');
   /* eslint-enable */
 
-});
-// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/utils/console/log.js
+}
+;// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/utils/console/log.js
 function log(s) {
   console.info('[react-ga]', s);
 }
-// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/utils/testModeAPI.js
+;// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/utils/testModeAPI.js
 var gaCalls = [];
 /* harmony default export */ var testModeAPI = ({
   calls: gaCalls,
@@ -283,26 +310,30 @@ var gaCalls = [];
     gaCalls.length = 0;
   }
 });
-// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/core.js
+;// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/core.js
 function core_objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = core_objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
 function core_objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
 
 function core_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function core_objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { core_ownKeys(source, true).forEach(function (key) { core_defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { core_ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function core_objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { core_ownKeys(Object(source), true).forEach(function (key) { core_defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { core_ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 function core_defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-function core_typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { core_typeof = function _typeof(obj) { return typeof obj; }; } else { core_typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return core_typeof(obj); }
+function core_typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { core_typeof = function _typeof(obj) { return typeof obj; }; } else { core_typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return core_typeof(obj); }
 
-function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
 
-function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance"); }
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 
-function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter); }
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
 
-function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
+function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
 /**
  * React Google Analytics Module
@@ -329,8 +360,9 @@ var _debug = false;
 var _titleCase = true;
 var _testMode = false;
 var _alwaysSendToDefaultTracker = true;
+var _redactEmail = true;
 
-var core_internalGa = function internalGa() {
+var internalGa = function internalGa() {
   var _window;
 
   if (_testMode) return testModeAPI.ga.apply(testModeAPI, arguments);
@@ -340,7 +372,7 @@ var core_internalGa = function internalGa() {
 };
 
 function _format(s) {
-  return format(s, _titleCase);
+  return format(s, _titleCase, _redactEmail);
 }
 
 function _gaCommand(trackerNames) {
@@ -350,17 +382,17 @@ function _gaCommand(trackerNames) {
 
   var command = args[0];
 
-  if (typeof core_internalGa === 'function') {
+  if (typeof internalGa === 'function') {
     if (typeof command !== 'string') {
       warn('ga command must be a string');
       return;
     }
 
-    if (_alwaysSendToDefaultTracker || !Array.isArray(trackerNames)) core_internalGa.apply(void 0, args);
+    if (_alwaysSendToDefaultTracker || !Array.isArray(trackerNames)) internalGa.apply(void 0, args);
 
     if (Array.isArray(trackerNames)) {
       trackerNames.forEach(function (name) {
-        core_internalGa.apply(void 0, _toConsumableArray(["".concat(name, ".").concat(command)].concat(args.slice(1))));
+        internalGa.apply(void 0, _toConsumableArray(["".concat(name, ".").concat(command)].concat(args.slice(1))));
       });
     }
   }
@@ -381,31 +413,23 @@ function _initialize(gaTrackingID, options) {
       _titleCase = false;
     }
 
+    if (options.redactEmail === false) {
+      _redactEmail = false;
+    }
+
     if (options.useExistingGa) {
       return;
     }
   }
 
   if (options && options.gaOptions) {
-    core_internalGa('create', gaTrackingID, options.gaOptions);
+    internalGa('create', gaTrackingID, options.gaOptions);
   } else {
-    core_internalGa('create', gaTrackingID, 'auto');
+    internalGa('create', gaTrackingID, 'auto');
   }
 }
 
-function initialize(configsOrTrackingId, options) {
-  if (options && options.testMode === true) {
-    _testMode = true;
-  } else {
-    if (_isNotBrowser) {
-      return false;
-    }
-
-    if (!options || options.standardImplementation !== true) loadGA(options);
-  }
-
-  _alwaysSendToDefaultTracker = options && typeof options.alwaysSendToDefaultTracker === 'boolean' ? options.alwaysSendToDefaultTracker : true;
-
+function addTrackers(configsOrTrackingId, options) {
   if (Array.isArray(configsOrTrackingId)) {
     configsOrTrackingId.forEach(function (config) {
       if (core_typeof(config) !== 'object') {
@@ -421,6 +445,20 @@ function initialize(configsOrTrackingId, options) {
 
   return true;
 }
+function initialize(configsOrTrackingId, options) {
+  if (options && options.testMode === true) {
+    _testMode = true;
+  } else {
+    if (_isNotBrowser) {
+      return;
+    }
+
+    if (!options || options.standardImplementation !== true) loadGA(options);
+  }
+
+  _alwaysSendToDefaultTracker = options && typeof options.alwaysSendToDefaultTracker === 'boolean' ? options.alwaysSendToDefaultTracker : true;
+  addTrackers(configsOrTrackingId, options);
+}
 /**
  * ga:
  * Returns the original GA object.
@@ -432,10 +470,10 @@ function ga() {
   }
 
   if (args.length > 0) {
-    core_internalGa.apply(void 0, args);
+    internalGa.apply(void 0, args);
 
     if (_debug) {
-      log('called ga(\'arguments\');');
+      log("called ga('arguments');");
       log("with arguments: ".concat(JSON.stringify(args)));
     }
   }
@@ -467,7 +505,7 @@ function set(fieldsObject, trackerNames) {
   _gaCommand(trackerNames, 'set', fieldsObject);
 
   if (_debug) {
-    log('called ga(\'set\', fieldsObject);');
+    log("called ga('set', fieldsObject);");
     log("with fieldsObject: ".concat(JSON.stringify(fieldsObject)));
   }
 }
@@ -484,7 +522,7 @@ function send(fieldObject, trackerNames) {
   _gaCommand(trackerNames, 'send', fieldObject);
 
   if (_debug) {
-    log('called ga(\'send\', fieldObject);');
+    log("called ga('send', fieldObject);");
     log("with fieldObject: ".concat(JSON.stringify(fieldObject)));
     log("with trackers: ".concat(JSON.stringify(trackerNames)));
   }
@@ -523,7 +561,7 @@ function pageview(rawPath, trackerNames, title) {
     }, extraFields));
 
     if (_debug) {
-      log('called ga(\'send\', \'pageview\', path);');
+      log("called ga('send', 'pageview', path);");
       var extraLog = '';
 
       if (title) {
@@ -561,7 +599,7 @@ function modalview(rawModalName, trackerNames) {
     _gaCommand(trackerNames, 'send', 'pageview', path);
 
     if (_debug) {
-      log('called ga(\'send\', \'pageview\', path);');
+      log("called ga('send', 'pageview', path);");
       log("with path: ".concat(path));
     }
   }
@@ -586,7 +624,7 @@ function timing() {
   var trackerNames = arguments.length > 1 ? arguments[1] : undefined;
 
   if (typeof ga === 'function') {
-    if (!category || !variable || !value || typeof value !== 'number') {
+    if (!category || !variable || typeof value !== 'number') {
       warn('args.category, args.variable ' + 'AND args.value are required in timing() ' + 'AND args.value has to be a number');
       return;
     } // Required Fields
@@ -615,7 +653,7 @@ function timing() {
  * @param args.value {Int} optional
  * @param args.nonInteraction {boolean} optional
  * @param args.transport {string} optional
- * @param {Array} trackerNames - (optional) a list of extra trackers to run the command on
+ * @param {{action: string, category: string}} trackerNames - (optional) a list of extra trackers to run the command on
  */
 
 function core_event() {
@@ -787,11 +825,15 @@ var core_plugin = {
     var payload;
     var actionType;
 
-    if ((arguments.length <= 2 ? 0 : arguments.length - 2) === 1) {
-      payload = arguments.length <= 2 ? undefined : arguments[2];
+    for (var _len3 = arguments.length, args = new Array(_len3 > 2 ? _len3 - 2 : 0), _key3 = 2; _key3 < _len3; _key3++) {
+      args[_key3 - 2] = arguments[_key3];
+    }
+
+    if (args.length === 1) {
+      payload = args[0];
     } else {
-      actionType = arguments.length <= 2 ? undefined : arguments[2];
-      payload = arguments.length <= 3 ? undefined : arguments[3];
+      actionType = args[0];
+      payload = args[1];
     }
 
     if (typeof ga === 'function') {
@@ -902,35 +944,49 @@ var core_testModeAPI = testModeAPI;
   outboundLink: outboundLink,
   testModeAPI: testModeAPI
 });
-// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/index.js
+;// CONCATENATED MODULE: ./node_modules/react-ga/dist/esm/index.js
 function esm_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function esm_objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { esm_ownKeys(source, true).forEach(function (key) { esm_defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { esm_ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function esm_objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { esm_ownKeys(Object(source), true).forEach(function (key) { esm_defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { esm_ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 function esm_defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
 
 var esm_initialize = initialize;
+
+var esm_addTrackers = addTrackers;
+
 var esm_ga = ga;
+
 var esm_set = set;
+
 var esm_send = send;
+
 var esm_pageview = pageview;
+
 var esm_modalview = modalview;
+
 var esm_timing = timing;
+
 var esm_event = core_event;
+
 var esm_exception = exception;
+
 var esm_plugin = core_plugin;
+
 var esm_outboundLink = outboundLink;
+
 var esm_testModeAPI = core_testModeAPI;
-OutboundLink_OutboundLink.origTrackLink = OutboundLink_OutboundLink.trackLink;
-OutboundLink_OutboundLink.trackLink = outboundLink;
-var esm_OutboundLink = OutboundLink_OutboundLink;
-/* harmony default export */ var esm = __webpack_exports__["default"] = (esm_objectSpread({}, core_namespaceObject, {
+
+OutboundLink.origTrackLink = OutboundLink.trackLink;
+OutboundLink.trackLink = outboundLink;
+var esm_OutboundLink = OutboundLink;
+/* harmony default export */ var esm = (esm_objectSpread(esm_objectSpread({}, core_namespaceObject), {}, {
   OutboundLink: esm_OutboundLink
 }));
 
 /***/ })
 
 }]);
-//# sourceMappingURL=react~react-ga.e5c5c8ff797ca5ddde0f.bundle.js.map
+//# sourceMappingURL=516.1c6e1591f6b6ef730571.bundle.js.map
