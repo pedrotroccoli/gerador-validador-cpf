@@ -48,7 +48,7 @@ var useTranslation = __webpack_require__(6793);
 // extracted by mini-css-extract-plugin
 /* harmony default export */ var Code_module = ({"codeBox":"code-box--3pp3UpC","code":"code--2V3htTU","showCode":"show-code--h8rLeRE","showQr":"showQR--FHOyEUC","hideCode":"hide-code--2YzTrCl","hideQr":"hideQR--nf4oXS9"});
 ;// CONCATENATED MODULE: ./src/site/components/Donate/img/BTCQR.png
-/* harmony default export */ var BTCQR = (__webpack_require__.p + "img/96860fdd2f001e8edad5e0bdc5f71b7c.png");
+/* harmony default export */ var BTCQR = (__webpack_require__.p + "img/8dc8709c5ac9f02634a3a49ff8f1e85f.png");
 ;// CONCATENATED MODULE: ./src/site/components/Donate/Donate.tsx
 
 
@@ -164,7 +164,7 @@ var Donate = function Donate() {
         })
       }), /*#__PURE__*/(0,jsx_runtime.jsx)("li", {
         children: /*#__PURE__*/(0,jsx_runtime.jsx)((lib_default()), {
-          text: "3DztnDvY7McQ7zwGS8Vjafsbc1ee1HDAmE",
+          text: "14iqQcwYPLBceRURHuFosGTDXxMmt3cLDp",
           onCopy: handleCopy,
           children: /*#__PURE__*/(0,jsx_runtime.jsx)("button", {
             className: Donation_module.button + " " + Donation_module.buttonBitcoin,
@@ -1220,4 +1220,4 @@ if (false) {}
 /******/ 	return __webpack_require__.x();
 /******/ })()
 ;
-//# sourceMappingURL=index.012ace7bae11d8afadb8.js.map
+//# sourceMappingURL=index.87393fc3871518815811.js.map
