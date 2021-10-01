@@ -423,10 +423,6 @@ var allDigitsAreEqual = function allDigitsAreEqual(digits) {
 
 
 /**
- * [Gerador e Validador de CPF](https://tiagoporto.github.io/gerador-validador-cpf)
- *
- * @author Tiago Porto
- *
  * @function Generate
  * @param  {string} [formatOption="default"] - 'digits' | 'checker' | 'default'
  *
@@ -449,11 +445,6 @@ var generate = function generate(_temp) {
   return formatCPF(generatedCPF, format);
 };
 /**
- *
- * [Gerador e Validador de CPF](https://tiagoporto.github.io/gerador-validador-cpf)
- *
- * @author Tiago Porto
- *
  * @function Validate
  * @param  {string} value  CPF number
  *
@@ -1220,4 +1211,4 @@ if (false) {}
 /******/ 	return __webpack_require__.x();
 /******/ })()
 ;
-//# sourceMappingURL=index.87393fc3871518815811.js.map
+//# sourceMappingURL=index.0caae7c4e76a58a88418.js.map
